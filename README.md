@@ -8,35 +8,52 @@ As a young student finding your first off-campus housing is quite a daunting cha
 
 Under the BuSpark ensign, this projects seeks to be rich in information extraction, pattern recogniztion, and, most importatnly, a helpful tool in guiding students to make more informative decsions on housing contracts. 
 
+
+
+### Midterm Report ###
+
+This project came with questions and goals that we are trying to solve using data given. Out of 5 main questions, we have successfully processed data, and create visualizations for 2 of the main questions. The questions include: 
+
+- What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
+- What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
+
+The datasets that this midterm report is going to focus on include: 
+- Student Housing Survey (2016-2024) (https://docs.google.com/spreadsheets/d/11X4VvywkSodvvTk5kkQH7gtNPGovCgBq/edit?gid=1139465182#gid=1139465182)
+- Building and Violation Data (https://data.boston.gov/dataset/building-and-property-violations1/resource/800a2663-1d6a-46e7-9356-bedb70f5332c)
+- Boston Latitude and Longitude Map (publicly available at ...)
+
+
+
+
 ### Data Collection ###
 
-A good start to the collection of data is avaliable on the Spart project word doc, https://docs.google.com/document/d/1bo8HOm5KWv1h1UqtTZ7QCV4YYtyfKhN9KFHLL5j0MJo/edit?tab=t.0. In addition, more research is going to be put into scraping for publicly avaliable datasets related to housing which contain student and land-lord informations. 
+All of the data used in this report came from this document. https://docs.google.com/document/d/1bo8HOm5KWv1h1UqtTZ7QCV4YYtyfKhN9KFHLL5j0MJo/edit?tab=t.0. Most of the  the data is provided by Analyze Boston, the City of Boston's open data hub. The rest of the data is found publicly online at Master Address Database Data (https://massgis.maps.arcgis.com/apps/View/index.html?appid=530eb45188934e23a8703399fd37bf0f)
 
-#### Midterm Report ####
+### Data Processing ###
 
-### Data Analysis - ###
+a. Cleaning and integration: Student Housing Survey and Building Violation Data
+  1. Data Cleaning: Dropped rows that are needed.
+  2. Address Normalization: We standardized address entries ( street names, zip codes) to merge the Student Housing Survey with the Building and Violation Data. The goal is to combine both data and run K-means clustering algorithm.
+  3. The student dataset had confusing column names like '6a. street #' and '6b. street name'. These were renamed for clarity: street_number,street_name, street_suffix, unit_number, zip_code
+  4. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
+  5. Data grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
+      - student_count: how many students reported each address
+      - violation_count: how many violations were tied to each address
+  7. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
 
-Analysis of the data will take 2 different approaches as highlighted below. 
+ 
 
-1) Descriptive Analysis: In this we will first be analysing the general trend such as percentage of student housing occupation per district over time, changes in student rental market, identifying dense student housing locations, and student housing dynamics. The second state of the descriptive Analysis is to analyse Violent and complaint stats such as number of violation, types of violations, frequency of violations, and lastly response timings.
-2) Inferential and Predictive Analysis: In this phase we will use the descriptive analysis to futher our study to make real time prediction on features like identifying bad landlords, predicting liklihood of non-compliance, clustering non-compliant landlords, as well as the affordability and any violations. 
+
+### Data Analysis ###
+
+a. Analysis for What are the housing conditions for students living off-campus? (e.g. how many students per unit Is the unit managed by a “bad landlord’ e.g. how many building violations have student housing)
+
 
 
 ### Data Visualization ###
 
-For visualizing and reporting we will try to implemtn the following: 
 
-1) Time series of student housing percentage by district
-2) Bar Charts of studnet violations
-3) Heatmaps of violent density
-4) Cluster analysis of bad landlords
-5) Property value trends over time
-6) Comparisons between student occupancy and violations levels
-
-We will also provide summaries and potentially if time allows a custom fine-tuned NLP to the data that can help with queries regarding housing. 
+### Continued Actions ###
 
 
-### Test Train Validate ###
-
-For the predictive analysis we will be using the 7-fold cross-validate method which basically runs the model over multiple iterations each time with different partiions to get better reporting on the predictions. Futher research will be needed to properly test our models and report. 
 
