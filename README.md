@@ -81,7 +81,13 @@ b. Hotspots: Within the graph, cluster 2 and 4 are very closely dense with moder
 c. Coldspots: There are clusters on the graph that are less dense with less violations unlike cluster 2 and cluster 4. By looking at the latitude and longitude, it correlates with an area in Boston that are mostly residential (with some mix of student housing). Going along with point b, these points on the map show that there are less violations in areas where there are less student housing and more residential (further away from university). 
 
 
-### Next Stteps ###
+### Next Steps ###
+
+1. Clustering Next Steps:
+   a. Analyze the types of violations within each cluster.
+   b. Map clusters to real-world neighborhoods using GIS.
+   c. Determine if violations correlate with academic terms of students or not.
+2. 
 
 
 
