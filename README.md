@@ -32,14 +32,19 @@ All of the data used in this report came from this document. https://docs.google
 ### Data Processing ###
 
 a. Cleaning and integration: Student Housing Survey and Building Violation Data
-  1. Data Cleaning: Dropped rows that are needed.
+
+  1. Data Cleaning: Dropped rows that are not needed.
+  
   2. Address Normalization: We standardized address entries ( street names, zip codes) to merge the Student Housing Survey with the Building and Violation Data. The goal is to combine both data and run K-means clustering algorithm.
+ 
   3. The student dataset had confusing column names like '6a. street #' and '6b. street name'. These were renamed for clarity: street_number,street_name, street_suffix, unit_number, zip_code
+ 
   4. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
+ 
   5. Data grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
       - student_count: how many students reported each address
       - violation_count: how many violations were tied to each address
-  7. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
+  6. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
 
  
 
@@ -47,6 +52,25 @@ a. Cleaning and integration: Student Housing Survey and Building Violation Data
 ### Data Analysis ###
 
 a. Analysis for What are the housing conditions for students living off-campus? (e.g. how many students per unit Is the unit managed by a “bad landlord’ e.g. how many building violations have student housing)
+  
+  1. Clustering: K-Means algorithm was applied with k = 5 (5 clusters), Features used: latitude, longitude, and ZIP code (normalized). The resulting clusters were plotted using a scatter plot of longitude vs latitude, color-coded by cluster. The results of the clustering can be seen below.
+  
+  <img width="765" alt="Screenshot 2025-03-30 at 5 08 15 PM" src="https://github.com/user-attachments/assets/01a49b6f-f033-4f0e-a396-14fcffb3afd4" />
+
+  2. Result and Interpretation:
+     The clustering output revealed five distinct geographic regions where matched student and violation addresses are concentrated. Each color in the scatter plot represents a different cluster:
+
+     - Cluster 0 (Blue): A relatively dispersed cluster centered around the middle region. This may represent a central urban zone with a diverse mix of matched addresses.
+
+     - Cluster 1 (Orange):A very small and localized cluster. It may represent a particular housing complex or facility with concentrated matched violations.
+
+     - Cluster 2 (Green):A tight grouping in the northwest. Indicates a neighborhood or district with a high density of student-related violations. Possibly a student residential area.
+
+     - Cluster 3 (Red):A larger and well-formed cluster in the southern portion of the map. Suggests another major region of interest, likely with many matched cases.
+
+     - Cluster 4 (Purple):A dense cluster in the northeast region. This may be associated with student-managed housing or large apartment buildings.
+
+
 
 
 
