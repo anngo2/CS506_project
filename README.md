@@ -6,14 +6,15 @@ As a young student finding your first off-campus housing is quite a daunting cha
 
 ### Goal of Porject ###
 
-Under the BuSpark ensign, this projects seeks to be rich in information extraction, pattern recogniztion, and, most importatnly, a helpful tool in guiding students to make more informative decsions on housing contracts. Corollary, it also seeks to notify the correct authorities on potential harmful relationships fostered by both land-lord and tenant. 
-
+Under the BuSpark ensign, this projects seeks to be rich in information extraction, pattern recogniztion, and, most importatnly, a helpful tool in guiding students to make more informative decsions on housing contracts. 
 
 ### Data Collection ###
 
 A good start to the collection of data is avaliable on the Spart project word doc, https://docs.google.com/document/d/1bo8HOm5KWv1h1UqtTZ7QCV4YYtyfKhN9KFHLL5j0MJo/edit?tab=t.0. In addition, more research is going to be put into scraping for publicly avaliable datasets related to housing which contain student and land-lord informations. 
 
-### Data Analysis ###
+#### Midterm Report ####
+
+### Data Analysis - ###
 
 Analysis of the data will take 2 different approaches as highlighted below. 
 
