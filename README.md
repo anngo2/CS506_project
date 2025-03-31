@@ -36,13 +36,16 @@ a. Cleaning and integration: Student Housing Survey and Building Violation Data
   2. Address Normalization: We standardized address entries ( street names, zip codes) to merge the Student Housing Survey with the Building and Violation Data. The goal is to combine both data and run K-means clustering algorithm.
  
   3. The student dataset had confusing column names like '6a. street #' and '6b. street name'. These were renamed for clarity: street_number,street_name, street_suffix, unit_number, zip_code
+
+  5. The student dataset did not include ward association to the address they were living in so we used hash mapping to get the ward names through anohter data set we found on the government website. 
  
-  4. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
+  6. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
  
-  5. Data grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
+  7. Data grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
       - student_count: how many students reported each address
       - violation_count: how many violations were tied to each address
-  6. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
+  8. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
+
 
 b. Cleaning and integration: MassGIS and Student Housing Survey (2016-2024)
 
