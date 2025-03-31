@@ -33,27 +33,33 @@ a. Cleaning and integration: Student Housing Survey and Building Violation Data
 
   1. Data Cleaning: Dropped rows that are not needed.
   
-  2. Address Normalization: We standardized address entries ( street names, zip codes) to merge the Student Housing Survey with the Building and Violation Data. The goal is to combine both data and run K-means clustering algorithm.
+  2. Address Normalization: We standardized address entries (street names, zip codes) to merge the Student Housing Survey with the Building and Violation Data. The goal is to combine both data and run K-means clustering algorithm.
+     - The student dataset had confusing column names like '6a. street #' and '6b. street name'. These were renamed for clarity: street_number,street_name, street_suffix, unit_number, zip_code
+     - We padded all ZIP codes to 5 digits using zfill(5) to ensure consistency of the student data with the violation data.
+     - We cleaned key address fields in both datasets to ensure consistent formatting:
+       + Stripped whitespace
+       + Converted to uppercase
+       + Removed letters from street numbers (e.g., 116H → 116)
+       + Replaced missing/invalid values with blanks
  
-  3. The student dataset had confusing column names like '6a. street #' and '6b. street name'. These were renamed for clarity: street_number,street_name, street_suffix, unit_number, zip_code
-
-  5. The student dataset did not include ward association to the address they were living in so we used hash mapping to get the ward names through anohter data set we found on the government website. 
- 
-  6. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
- 
-  7. Data grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
+  3.  Data Grouping: We grouped both datasets by simple address key (using street number, streetname, and zip_code, concatenated with spaces) to count:
       - student_count: how many students reported each address
       - violation_count: how many violations were tied to each address
-  8. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
+        
+  4. Data Merging: After cleaning, the Student Housing Survey was linked to the Building and Violation Data based on address. This step allowed us to explore how many students occupied a given unit and how many violations were registered against the property.
+ 
+  5. Data Filtering: We wanted to focus on problematic housing, so we filter the data by housing that has more than 0 violations.
 
 
 b. Cleaning and integration: MassGIS and Student Housing Survey (2016-2024)
 
   1. Data cleaning and filtering: We dropped colunns that are not needed in Student Housing Survey (Missing addresses, Nan values, etc). We filter out data by name and street number in order to filter out the data by district) <img width="247" alt="Screenshot 2025-03-30 at 6 52 46 PM" src="https://github.com/user-attachments/assets/81e02290-ba5a-4688-a440-b4e7fc12e4ac" />
 
-  2. Address Normalization: We standardized address entries (street names, zip codes, city, etc.) within Student Housing Survey since the addresses are sometimes not the same.
+  2. Address Normalization:
+     - We standardized address entries (street names, zip codes, city, etc.) within Student Housing Survey since the addresses are sometimes not the same.
+     - The student dataset did not include ward association to the address they were living in so we used hash mapping to get the ward names through anohter data set we found on the government website. 
 
-  3. The address that were given were ranges of data. One part of the filtering process we did was to add another column (actual_address) where that column represents exactly one address making it easier to do location based analysis.
+  4. The address that were given were ranges of data. One part of the filtering process we did was to add another column (actual_address) where that column represents exactly one address making it easier to do location based analysis.
     
 
 
