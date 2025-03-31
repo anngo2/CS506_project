@@ -119,7 +119,9 @@ b. Results for Base question 1.
 
    c. Determine if violations correlate with academic terms of students or not.
 2. Base Question 1 potential next steps
+
    a. Analyze year to year fluctuations: Some wards exhibit gradual year to year growth, while others show more erratic changes. This might be tied to housing regulations, enrollment surges, or major campus initiatives. We can look into the years to futher explain our dataset.
+
    b. Predictive Modeling: Use past (historical) trends to predict future occupancy levels in each ward. We could also run regression analysis to see relationships between student occupancy and other factors like demographic, property value, etc.
    
    
