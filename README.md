@@ -1,4 +1,4 @@
-# CS506_project ##(https://www.youtube.com/watch?v=QPIXDBgT4HM)
+# CS506_project (https://www.youtube.com/watch?v=QPIXDBgT4HM)
 
 ### Description of Project ###
 
