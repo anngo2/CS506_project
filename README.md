@@ -142,14 +142,18 @@ b. Analysis for trends regarding student housing across the city, by district
       - We began by importing the property_and_building_violations.csv dataset, which contains violation case records across different wards.
       - We dropped rows where the violation description was missing (NaN) since these would not provide meaningful violation categorization.
       - We ensured all ward entries were clean by stripping whitespace and converting them to string format. Any non-numeric ward entries were filtered out, ensuring accurate aggregation.
-  2. `Text Normalization and Feature Extraction:`
+  2. `Aggregation: ` We grouped the data by _violation_category_ and _ward_str_, counting the number of violations within each combination. Resulted in a clean summary DataFrame showing the number of violations per category per ward, which was then saved as _violation_counts_by_category_ward.csv_ for visualization.
+
+
+## Data Analysis (Q3)
+  1. `Text Normalization and Feature Extraction:`
       -  we preprocessed the `description` field by converting all text to lowercase for uniformity
-      -  We then used **CountVectorizer** with an n-gram range of (3,3) to extract the most frequent trigrams across all violation descriptions, excluding common English stopwords.
+      -  We then used **_CountVectorizer_** with an n-gram range of (3,3) to extract the most frequent trigrams across all violation descriptions, excluding common English stopwords.
       -  The resulting top 50 most common trigrams provided insight into recurring violation patterns and language used in violation reports. (as seen below)
      
         <img width="278" alt="Screenshot 2025-04-29 at 1 38 33 PM" src="https://github.com/user-attachments/assets/0190a953-cfc4-4b9a-a252-5c3ba76f3cd1" />
 
-  3. `Categorization of Violations:` To structure the analysis meaningfully, we created a function _categorize_violation()_ that classified each violation into broad categories based on keyword matching in the description. The categories include:
+  2. `Categorization of Violations:` To structure the analysis meaningfully, we created a function _**categorize_violation()**_ that classified each violation into broad categories based on keyword matching in the description. The categories include:
 
       - Permit Issues (e.g., missing permits, non-compliance)
       - Property Maintenance Issues (e.g., failure to maintain property)
@@ -159,11 +163,28 @@ b. Analysis for trends regarding student housing across the city, by district
       - Certification Issues (e.g., missing certifications)
       - Water Violations (e.g., plumbing problems, water leaks)
       - Other (uncategorized issues)
-  4. `Aggregation: ` We grouped the data by _violation_category_ and _ward_str_, counting the number of violations within each combination. Resulted in a clean summary DataFrame showing the number of violations per category per ward, which was then saved as _violation_counts_by_category_ward.csv_ for visualization.
 
-## Data Analysis (Q3)
+  3. `Most Common Violation Types Across Wards:` we were able to identify which types of violations were most common in specific wards. An example is permit issues which we saw as a systemic problem amongst all wards. More about this below.
 
-  1. 
+> CHECK OUT THE VISUALIZATIONS FOR THIS QUESTION HERE: https://public.flourish.studio/visualisation/22902450/
+
+
+<img width="853" alt="Screenshot 2025-04-29 at 3 36 30 PM" src="https://github.com/user-attachments/assets/9506737d-0e0f-4c9d-9984-e2380aa9bf42" />
+The picture above shows the correlation between ward number and area in Boston
+
+## Preliminary Results
+
+  1. `Permit Issues dominate citywide:` Across basically all wards, the majority of violations were related to permit compliance, either due to failure to obtain proper permits for construction or not adhering to permit regulations. This trend suggests that enforcement agencies could prioritize targeted outreach or educational programs to property owners to mitigate this problem. We believe that this permit issues is a systemic issues given that all wards have very high levels of permit violations.
+
+       - Besides Permit issues that was the top category city wide, property maintenance issues ranked second.
+  3. `Ward Specific Trends:` There are trends within certain wards that could be looked into more. We believe this is an area of focus and there is more information to be extracted if one were to understand housing violations and more about the area. Below are one of many trends that can be found given the graph. The violation groupings are able to be changed within the code `categorize_violation(desc):` 
+
+      - Ward 3 (downtown) had a high concentration of Unsafe Conditions violations. This could be because of older building stock and more frequent building inspections in high-traffic urban areas.
+      - Ward 21, located around Boston University, had relatively more Property Maintenance Issues, likely due to the amount of student rentals and turnover rates every school year.
+      - Ward 14 which we have done more research on is Mattapan. This area is known to have aging infatrsutcture this means that the are a lot of water related issues. The issues at Mattapan area inclues: lead in drinking water, combined sewer flows, etc. This is good because the data reflects such problems
+
+      
+
 
      
 
