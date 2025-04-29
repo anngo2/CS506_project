@@ -10,20 +10,38 @@ Under the BuSpark ensign, this projects seeks to be rich in information extracti
 
 
 
-### Midterm Report ###
+# FINAL REPORT
 
-This project came with questions and goals that we are trying to solve using data given. Out of 5 main questions, we have successfully processed data, and create visualizations for 2 of the main questions. The questions include: 
+This project came with questions and goals that we are trying to solve using data given. We have successfully answered the 5 base questions, we have also expanded on such questions. The questions we have analyzed include:
 
 - What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
+- What is the spectrum of violations and severity in regards to worst landlords classifications?
+- How has the value of these off campus housing options changed over time?
+- What types of violations are happening at each Ward/ most violations for each ward?
+- What are the risk-scores for each Ward (Scofflaw violations average of each ward) 
 - What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
 
 The datasets that this midterm report is going to focus on include: 
+- 311 Service Request of Boston (https://data.boston.gov/dataset/311-service-requests)
+- SAM Addresses (https://data.boston.gov/dataset/live-street-address-management-sam-addresses)
+- Property Assessment data (https://data.boston.gov/dataset/property-assessment)
+- Shape file for neighborhoods (https://data.boston.gov/dataset/boston-neighborhood-boundaries-approximated-by-2020-census-tracts)
 - Student Housing Survey (2016-2024) (https://docs.google.com/spreadsheets/d/11X4VvywkSodvvTk5kkQH7gtNPGovCgBq/edit?gid=1139465182#gid=1139465182)
 - Building and Violation Data (https://data.boston.gov/dataset/building-and-property-violations1/resource/800a2663-1d6a-46e7-9356-bedb70f5332c)
 - Boston Latitude and Longitude Map provided by MassGIS (publicly available at https://massgis.maps.arcgis.com/apps/View/index.html?appid=530eb45188934e23a8703399fd37bf0f)
 
 
-### Data Collection ###
+# Makefile
+
+
+<---------------------- ADD MAKEFILE INFO ------------------------>
+
+
+
+
+`Structure of this report:` We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
+
+## Question 1:  What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
 
 All of the data used in this report came from this document. https://docs.google.com/document/d/1bo8HOm5KWv1h1UqtTZ7QCV4YYtyfKhN9KFHLL5j0MJo/edit?tab=t.0. Most of the  the data is provided by Analyze Boston, the City of Boston's open data hub. The rest of the data is found publicly online at Master Address Database Data MassGIS (https://massgis.maps.arcgis.com/apps/View/index.html?appid=530eb45188934e23a8703399fd37bf0f)
 
