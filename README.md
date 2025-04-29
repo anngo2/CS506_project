@@ -133,20 +133,40 @@ b. Analysis for trends regarding student housing across the city, by district
   2. Another trend that we discovered can be seen on the line graph above. Looking at the line graph, we see that there is a dip in student housing from the years 2019-2020. This directly aligns with the COVID-19 Pandemic where students were not as present during this time. Given the results, we are able to see how much of an effect students have on the properties around Universities. 
 
 
-### Next Steps ###
+## Question 3: What types of violations are happening at each Ward/ most violations for each ward?
 
-1. Clustering Next Steps:
-   a. Analyze the types of violations within each cluster.
+### Data Processing (Q3)
 
-   b. Map clusters to real-world neighborhoods using GIS.
+  1. `Data Cleaning and Preprocessing:`
 
-   c. Determine if violations correlate with academic terms of students or not.
-2. Base Question 1 potential next steps
+      - We began by importing the property_and_building_violations.csv dataset, which contains violation case records across different wards.
+      - We dropped rows where the violation description was missing (NaN) since these would not provide meaningful violation categorization.
+      - We ensured all ward entries were clean by stripping whitespace and converting them to string format. Any non-numeric ward entries were filtered out, ensuring accurate aggregation.
+  2. `Text Normalization and Feature Extraction:`
+      -  we preprocessed the `description` field by converting all text to lowercase for uniformity
+      -  We then used **CountVectorizer** with an n-gram range of (3,3) to extract the most frequent trigrams across all violation descriptions, excluding common English stopwords.
+      -  The resulting top 50 most common trigrams provided insight into recurring violation patterns and language used in violation reports. (as seen below)
+     
+        <img width="278" alt="Screenshot 2025-04-29 at 1 38 33 PM" src="https://github.com/user-attachments/assets/0190a953-cfc4-4b9a-a252-5c3ba76f3cd1" />
 
-   a. Analyze year to year fluctuations: Some wards exhibit gradual year to year growth, while others show more erratic changes. This might be tied to housing regulations, enrollment surges, or major campus initiatives. We can look into the years to futher explain our dataset.
+  3. `Categorization of Violations:` To structure the analysis meaningfully, we created a function _categorize_violation()_ that classified each violation into broad categories based on keyword matching in the description. The categories include:
 
-   b. Predictive Modeling: Use past (historical) trends to predict future occupancy levels in each ward. We could also run regression analysis to see relationships between student occupancy and other factors like demographic, property value, etc.
-   
+      - Permit Issues (e.g., missing permits, non-compliance)
+      - Property Maintenance Issues (e.g., failure to maintain property)
+      - Unsafe Conditions (e.g., dangerous, unsafe structures)
+      - Electrical Violations (e.g., faulty wiring, electrical code issues)
+      - Premise Violations (e.g., premises not up to code)
+      - Certification Issues (e.g., missing certifications)
+      - Water Violations (e.g., plumbing problems, water leaks)
+      - Other (uncategorized issues)
+  4. `Aggregation: ` We grouped the data by _violation_category_ and _ward_str_, counting the number of violations within each combination. Resulted in a clean summary DataFrame showing the number of violations per category per ward, which was then saved as _violation_counts_by_category_ward.csv_ for visualization.
+
+## Data Analysis (Q3)
+
+  1. 
+
+     
+
    
 
 
