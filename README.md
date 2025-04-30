@@ -185,7 +185,60 @@ The picture above shows the correlation between ward number and area in Boston
 
 # Question 4: What are the risk-scores for each Ward (Scofflaw violations average of each ward)? 
 
-# Data Processing (Q4)
+What this question aims to do is to figure out the scofflaw risk score for each ward. 'Scofflaw' is defined as a property that has: has property in active active enforcement proceedings (court) OR has 6+ violations on their rental properties. In a high level, what this question aims to do is to figure out which properties are under 'scofflaw' (1 for yes 0 for not under scofflaw) and we build a model trianing on such data to predict whether a property is a scofflaw based on engineered features.
+
+## Data Processing (Q4)
+
+1. Data Cleaning:
+From the violations dataset, we selected the following columns:
+   - `case_no:`  violation case number
+   - `sam_id:` property ID reference
+   - `status:` whether the case is open, closed, etc.
+   - `status_dttm:` timestamp of the violation status update
+   - `description:` text description of the violation 
+From the SAM dataset, we selected:
+   - `SAM_ADDRESS_ID:` matches sam_id
+   - `FULL_ADDRESS:` text of their address
+   - `created_date:` timestamp of address record creation
+2. Processing:
+   - Each violation description was normalized (uppercased) and classified into a specific category via a function _**categorize_violation(desc)**_. The categories are the same as the ones listed in Question 3.
+   - `merging datasets:` The two datasets were merged using a left join on sam_id = SAM_ADDRESS_ID. This allowed violations to be tied back to their full addresses and address creation dates for better context.
+
+## Data Analysis (Q3)
+
+1. Feature Engineering - Given the dataset, we manually engineering multiple features per sam_id (property).
+   - `total_violations:` Total number of recorded violations.
+   - `days_since_last:` Number of days since the last violation was recorded.
+   - `days_since_sam_created:` Number of days since the address was first created in the SAM system.
+   - We created one counts for each violation category, e.g., how many times a property had a water violation, unsafe condition, etc.
+   - any values that were missing were set to 0 for the purpose of the model
+2. Creating the model:
+   - We defined high-risk properties using two criteria: properties with 6 or more violations, or properties with at least one open case.
+   - If either conditions were true, the property was labeled as a "scofflaw" (target = 1), otherwise as non scofflaw (target = 0).
+   - `train-test split:` We split the dataset into training (80%) and testing (20%) with `random_state: 42`
+   - `pipeline:` We created a scikit-learn Pipeline with _simpleImputer_ to fill missing values, _StandardScaler_ to normalize feature scales, and _RandomForestClassifier_ for classification.
+3. Model trainning and prediction
+   - The model was trained using `pipe.fit(X_train, y_train`) to predict whether a property is a scofflaw property.
+   - After training, we predicted the probability using: `pipe.predict_proba(X)[:, 1]`
+   - This value was saved into a new column called **_risk_score_**, representing the estimated risk level for each property on a 0 to 1 scale
+4. We joined the score back with the following columns: `sam_id`, `total_violations`, `FULL_ADDRESS` which gave us the complete table that associates risk scores with the addresses.
+
+> CHECK OUT THE VISUALIZATIONS FOR Q4 HERE: https://public.flourish.studio/visualisation/22902951/
+
+## Preliminary Results (Q4)
+
+Given the results from the visualization, we did a bit more research into the specific areas that had the highest scores, below are the some noteable results that we found:
+
+1. Ward 10 (Risk Score: 0.39) -  Roxbury (closer to Nubian Square)
+
+   - Has high concentration of a type of housing called triple decker houses. It also has a lot of older multi family housing areas and aging rental units. They apparently have issue with overcrowding and absent landowners/renters. We believe that the properties at Roxbury can be looked into more by experts to possibly resolve the what-looks-like systemic issues.
+  
+2. Ward 11 (Risk Score: 0.32) - Parts of Jamaica Plain and Roxbury
+   - Ward 11 has similar problems to ward 10 as mentioned above. A lot of the housing here is very old but as of right now it's going through a lot of gentrification (from our research). Because of this, a lot of the older buildings are not paid close attention to compared to the newer buildings. We believe that this area is important to look into because we believe that in a few years the score will change a lot due to the area under going change.
+
+3. Ward 2 (Risk Score: 0.18) - Charlestown
+
+   - Out of all the wards in Boston, this area scored the lowest in terms of risk score. This area typically has a lot of single family homes and is considered the suburbs. It also has a lot of new devlopment (higher end) which we believe to be the reason why the maintenance culture is good around there. This development could definitely be looked at more in order to study and figure out why the risk score is so low. I think other areas could learn from this area.
 
 
       
