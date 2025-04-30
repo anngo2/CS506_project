@@ -1,5 +1,7 @@
 # CS506_project (https://www.youtube.com/watch?v=QPIXDBgT4HM)
 
+`Structure of this report:` We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
+
 ### Description of Project ###
 
 As a young student finding your first off-campus housing is quite a daunting challenge and with Warren Towers under renovation, we take this opportunity to analyze and inform on the transparency and accountability of off-campus student housing. Through this project, we seek to first find a cluster of locations with dense student populations to allow us to study the condition under which students are allowed to pursue their education. The project will progress under a collaborative environment with the Inspectional Services Department to restore and clarify housing violation data, develop tools to identify problematic landlords, and integrate data across city departments. 
@@ -37,12 +39,14 @@ The datasets that this midterm report is going to focus on include:
 
 Given the line of code below, you should have access to all the dependencies needed within our code for this project.
 
-``` pip install numpy pandas matplotlib scikit-learn contextily seaborn```
+``` 
+pip install numpy pandas matplotlib scikit-learn contextily seaborn
+```
 
 
 
 
-`Structure of this report:` We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
+
 
 ## Question 1: What are the housing conditions for students living off-campus? Is the unit managed by a “bad landlord’?
 
