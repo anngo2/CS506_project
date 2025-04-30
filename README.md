@@ -247,8 +247,103 @@ Given the results from the visualization, we did a bit more research into the sp
 
    - Out of all the wards in Boston, this area scored the lowest in terms of risk score. This area typically has a lot of single family homes and is considered the suburbs. It also has a lot of new devlopment (higher end) which we believe to be the reason why the maintenance culture is good around there. This development could definitely be looked at more in order to study and figure out why the risk score is so low. I think other areas could learn from this area.
 
+# Question 5: How has the value of these off-campus housing options changed over time?
 
-      
+## Data Processing (Q5)
+
+1. Cleaning and Integration: Student Housing Survey and Property Assessment Data
+
+**Student Housing Cleaning**  
+- Standardized column names (e.g., `6a. street #` → `StreetNumber`)  
+- Uppercased and stripped whitespace from street names  
+- Removed suffixes (e.g., “ST”, “AVE”) for matching  
+- Padded ZIP codes to 5 digits using `.zfill(5)`  
+
+**Property Assessment Cleaning**  
+- Harmonized yearly schema changes (e.g., `AV_TOTAL` → `TOTAL_VALUE`)  
+- Extracted numeric street numbers (e.g., `205A`, `134-136` → `205`, `134`)  
+- Removed commas, dollar signs, and cast values to float  
+
+**Merging**  
+- Datasets were matched on address: `StreetNumber + StreetName + ZIP`  
+- Only successfully matched rows were used to track value trends over time  
+
+2. Value Preparation and Filtering
+
+- Extracted and cleaned the `TOTAL_VALUE` field across all years  
+- Dropped entries with missing or invalid assessed values  
+- Prepared yearly subsets for modeling and visualization  
+
+---
+
+## Data Analysis (Q5)
+
+1. Value Trend Analysis (2016–2024)
+
+- Computed the **average** and **median** assessed value of matched student housing for each year  
+- Created a dual-line plot to visualize year-over-year trends  
+- Compared the median to the average to highlight skew  
+
+![Figure 1: Average Assessed Values](avg_graph_q5.png)
+![Figure 2: Median Assessed Values](median_graph_q5.png)
+
+
+
+2. Classification Model: Logistic Regression (2024)
+
+- Defined **luxury housing** as units with assessed value > \$2,000,000  
+- Selected features: `LAND_SF`, `LIVING_AREA`, `YR_BUILT`, `RES_UNITS`, `NUM_PARKING`  
+- Trained a **logistic regression** classifier to predict luxury status  
+- Evaluated using accuracy, precision, and recall  
+
+**Model Results:**
+
+| Metric     | Value     |
+|------------|-----------|
+| Accuracy   | 94.8%     |
+| Precision  | 88.4%     |
+| Recall     | 39.7%     |
+
+**Feature Importance:**  
+- `NUM_PARKING`: Strong positive coefficient (+0.85)  
+- `RES_UNITS`: Strong negative coefficient (−3.68)  
+
+**Figure 2.** _Confusion Matrix for Logistic Regression Predictions_  
+**Figure 3.** _Feature Importance: Logistic Regression Coefficients_
+
+3. ZIP Code-Level Summary
+
+- Grouped properties by ZIP and computed the proportion of luxury units  
+- Identified ZIP codes with the highest luxury student housing rates  
+
+**Top ZIP Codes by Luxury Percentage:**
+
+| ZIP     | Luxury % |
+|---------|-----------|
+| 02119   | 56.3%     |
+| 02110   | 39.0%     |
+| 02108   | 23.6%     |
+
+**Figure 4.** _Top ZIP Codes by Luxury Student Housing Rate_
+
+---
+
+## Result and Interpretation
+
+- **Stable Averages, Rising Medians**: From 2016 to 2024, average student housing value remained between \$2.3M–\$2.6M, while the median increased steadily from \$540K to \$635K  
+- **Luxury-Driven Skew**: The widening gap between median and mean reflects a small set of extremely high-value properties skewing the average  
+- **Model Performance**: Logistic regression identified luxury housing with strong precision, though recall was limited due to class imbalance  
+- **Geographic Patterns**: ZIP codes like 02119 (Roxbury) and 02110 (Downtown) had high concentrations of luxury units, showing location-based inequality in student housing access  
+
+---
+
+## Preliminary Results (Q5)
+
+- **Diverging Value Distribution**: Median trends offer better insight into affordability than average trends  
+- **Classification Insight**: A small number of structural features can reliably predict luxury status  
+- **Geographic Clustering**: Luxury housing is concentrated in a few ZIPs, indicating that policy interventions could target affordability by location  
+- **Next Steps**: Integrate neighborhood shapefiles for spatial visualization, and explore ZIP code one-hot encoding in modeling
+
 
 
      
