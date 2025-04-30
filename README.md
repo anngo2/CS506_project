@@ -18,9 +18,10 @@ This project came with questions and goals that we are trying to solve using dat
 -  What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
 - What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
 - What types of violations are happening at each Ward/ most violations for each ward?
-- What are the risk-scores for each Ward (Scofflaw violations average of each ward) 
-- What is the spectrum of violations and severity in regards to worst landlords classifications?
+- What are the risk-scores for each Ward (Scofflaw violations average of each ward)
 - How has the value of these off campus housing options changed over time?
+- What is the spectrum of violations and severity in regards to worst landlords classifications?
+
 
 
 
@@ -347,9 +348,17 @@ Given the results from the visualization, we did a bit more research into the sp
 - **Next Steps**: Integrate neighborhood shapefiles for spatial visualization, and explore ZIP code one-hot encoding in modeling
 
 
+# Question 6: What is the spectrum of violations and severity in regards to worst landlords classifications?
 
-     
+# Data Processing (Q6)
 
-   
+  1. `Cleaning:`
+
+     - Normalization functions `clean_violation_city()` maps spellings or mentions of Boston neighborhoods (e.g., "east boston/brighton", "northend") to consistent city names. At the same time, `clean_demographics_name()` does it for the demographic dataset
+     - Joining: The cleaned fields cleaned_city and cleaned_name were used to merge violations with their respective neighborhood demographic information.
+ 
+  2. `Processing:` matching violation records to their landlords using a composite address string.
+
+     - 
 
 
