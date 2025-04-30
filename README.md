@@ -1,6 +1,6 @@
 # CS506_project (https://www.youtube.com/watch?v=QPIXDBgT4HM)
 
-**Structure of this report:** We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
+> **Structure of this report:** We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
 
 ### Description of Project ###
 
