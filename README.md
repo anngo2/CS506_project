@@ -15,10 +15,12 @@ Under the BuSpark ensign, this projects seeks to be rich in information extracti
 This project came with questions and goals that we are trying to solve using data given. We have successfully answered the 5 base questions, we have also expanded on such questions. The questions we have analyzed include:
 -  What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
 - What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
-- What is the spectrum of violations and severity in regards to worst landlords classifications?
-- How has the value of these off campus housing options changed over time?
 - What types of violations are happening at each Ward/ most violations for each ward?
 - What are the risk-scores for each Ward (Scofflaw violations average of each ward) 
+- What is the spectrum of violations and severity in regards to worst landlords classifications?
+- How has the value of these off campus housing options changed over time?
+
+
 
 
 The datasets that this midterm report is going to focus on include: 
@@ -174,12 +176,12 @@ The picture above shows the correlation between ward number and area in Boston
 
 ## Preliminary Results
 
-  1. `Permit Issues dominate citywide:` Across basically all wards, the majority of violations were related to permit compliance, either due to failure to obtain proper permits for construction or not adhering to permit regulations. This trend suggests that enforcement agencies could prioritize targeted outreach or educational programs to property owners to mitigate this problem. We believe that this permit issues is a systemic issues given that all wards have very high levels of permit violations.
+  1. `Permit Issues dominate citywide:` Across basically all wards, the majority of violations were related to permit compliance, either due to failure to obtain proper permits for construction or not adhering to permit regulations. Given this trend, a solution we believe could be effective is to have more programs that educate people about permits and laws that are needed. This could be set up by the government or something. We believe that this permit issues is a systemic issues given that all wards have very high levels of permit violations.
 
        - Besides Permit issues that was the top category city wide, property maintenance issues ranked second.
   2. `Ward Specific Trends:` There are trends within certain wards that could be looked into more. We believe this is an area of focus and there is more information to be extracted if one were to understand housing violations and more about the area. Below are one of many trends that can be found given the graph. The violation groupings are able to be changed within the code `categorize_violation(desc):` 
 
-      - Ward 3 (downtown) had a high concentration of Unsafe Conditions violations. This could be because of older building stock and more frequent building inspections in high-traffic urban areas.
+      - Ward 3 (downtown) had a high concentration of Unsafe Conditions violations. This could be because of older building stock and more frequent building inspections in urban areas.
       - Ward 21, located around Boston University, had relatively more Property Maintenance Issues, likely due to the amount of student rentals and turnover rates every school year.
       - Ward 14 which we have done more research on is Mattapan. This area is known to have aging infatrsutcture this means that the are a lot of water related issues. The issues at Mattapan area inclues: lead in drinking water, combined sewer flows, etc. This is good because the data reflects such problems
 
