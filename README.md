@@ -285,8 +285,8 @@ Given the results from the visualization, we did a bit more research into the sp
 - Created a dual-line plot to visualize year-over-year trends  
 - Compared the median to the average to highlight skew  
 
-![Figure 1: Average Assessed Values](avg_graph_q5.png)
-![Figure 2: Median Assessed Values](median_graph_q5.png)
+![Figure 1: Average Assessed Values](./Visualizations/avg_graph_q5.png)
+![Figure 2: Median Assessed Values](./Visualizations/median_graph_q5.png)
 
 
 
@@ -309,8 +309,8 @@ Given the results from the visualization, we did a bit more research into the sp
 - `NUM_PARKING`: Strong positive coefficient (+0.85)  
 - `RES_UNITS`: Strong negative coefficient (−3.68)  
 
-![Figure 3: Confusion Matrix for Logistic Regression Predictions](confusion_matrix.png)
-![Figure 4: Feature Importance: Logistic Regression Coefficients](coeffs.png)
+![Figure 3: Confusion Matrix for Logistic Regression Predictions](./Visualizations/confusion_matrix.png)
+![Figure 4: Feature Importance: Logistic Regression Coefficients](./Visualizations/coeffs.png)
 
 
 3. ZIP Code-Level Summary
@@ -326,7 +326,7 @@ Given the results from the visualization, we did a bit more research into the sp
 | 02110   | 39.0%     |
 | 02108   | 23.6%     |
 
-![Figure 4: Top ZIP Codes by Luxury Student Housing Rate](zip_lux.png)
+![Figure 4: Top ZIP Codes by Luxury Student Housing Rate](./Visualizations/zip_lux.png)
 
 
 ---
