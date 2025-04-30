@@ -308,8 +308,9 @@ Given the results from the visualization, we did a bit more research into the sp
 - `NUM_PARKING`: Strong positive coefficient (+0.85)  
 - `RES_UNITS`: Strong negative coefficient (−3.68)  
 
-**Figure 2.** _Confusion Matrix for Logistic Regression Predictions_  
-**Figure 3.** _Feature Importance: Logistic Regression Coefficients_
+![Figure 3: Confusion Matrix for Logistic Regression Predictions](confusion_matrix.png)
+![Figure 4: Feature Importance: Logistic Regression Coefficients](coeffs.png)
+
 
 3. ZIP Code-Level Summary
 
@@ -324,7 +325,8 @@ Given the results from the visualization, we did a bit more research into the sp
 | 02110   | 39.0%     |
 | 02108   | 23.6%     |
 
-**Figure 4.** _Top ZIP Codes by Luxury Student Housing Rate_
+![Figure 4: Top ZIP Codes by Luxury Student Housing Rate](zip_lux.png)
+
 
 ---
 
