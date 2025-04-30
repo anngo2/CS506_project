@@ -35,8 +35,9 @@ The datasets that this midterm report is going to focus on include:
 
 # Makefile
 
+Given the line of code below, you should have access to all the dependencies needed within our code for this project.
 
-<---------------------- ADD MAKEFILE INFO ------------------------>
+``` pip install numpy pandas matplotlib scikit-learn contextily seaborn```
 
 
 
