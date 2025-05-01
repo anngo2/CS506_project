@@ -344,7 +344,7 @@ Given the results from the visualization, we did a bit more research into the sp
 - **Luxury-Driven Skew**: The widening gap between median and mean reflects a small set of extremely high-value properties skewing the average  
 - **Model Performance**: Logistic regression identified luxury housing with strong precision, though recall was limited due to class imbalance  
 - **Geographic Patterns**: ZIP codes like 02119 (Roxbury) and 02110 (Downtown) had high concentrations of luxury units, showing location-based inequality in student housing access  
-+ ***Limitations***: Since NUM_PARKING was the most important predictor, the model favored areas where off-street parking is more common. Roxbury properties tend to have more land, and therefore more parking—so they were more likely to be flagged as luxury, even if, in reality, they wouldn't be considered high-end.
+   + ***Limitations***: Since NUM_PARKING was the most important predictor, the model favored areas where off-street parking is more common. Roxbury properties tend to have more land, and therefore more parking—so they were more likely to be flagged as luxury, even if, in reality, they wouldn't be considered high-end.
 
 ---
 
