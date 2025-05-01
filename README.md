@@ -45,7 +45,11 @@ Given the line of code below, you should have access to all the dependencies nee
 ``` 
 pip install numpy pandas matplotlib scikit-learn contextily seaborn
 ```
+We also tried to make an executable makefile however we were only able to do it for one of the questions (question 6). In order to run this makefile, make sure that you are in the 506_project folder, the code to run the makefile is:
 
+```
+make
+```
 
 
 
