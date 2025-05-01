@@ -14,13 +14,15 @@ Under the BuSpark ensign, this projects seeks to be rich in information extracti
 
 # FINAL REPORT
 
-This project came with questions and goals that we are trying to solve using data given. We have successfully answered the 5 base questions, we have also expanded on such questions. The questions we have analyzed include:
--  What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
-- What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
-- What types of violations are happening at each Ward/ most violations for each ward?
-- What are the risk-scores for each Ward (Scofflaw violations average of each ward)
-- How has the value of these off campus housing options changed over time?
-- What is the spectrum of violations and severity in regards to worst landlords classifications?
+
+This project came with questions and goals that we are trying to solve using data given. We have successfully answered the 5 base questions, we have also expanded on such questions. This report is going to follow the questions in the order listed below. The questions we have analyzed include:
+1.  What are the housing conditions for students living off-campus? (e.g. how many students per unit) Is the unit managed by a “bad landlord’ (e.g. how many building violations have student housing)
+2. What are the trends regarding student housing across the city, by district, e.g. what % of the rental housing is taken up by students for each district and how has this changed over time?
+3. What types of violations are happening at each Ward/ most violations for each ward?
+4. What are the risk-scores for each Ward (Scofflaw violations average of each ward)
+5. How has the value of these off campus housing options changed over time?
+6. What is the spectrum of violations and severity in regards to worst landlords classifications?
+7. What landlords are non-compliant? Overall volume, severe violations.
 
 
 
@@ -419,5 +421,61 @@ sns.barplot(data=top_summary, x="OWNER", y="count", hue="description")
      - Main violations: failure to obtain permit, emergency escape & rescue, guarding of live parts, spaces about electrical equipment, unlawful acts/Continuance.
      - The amount of different types of violations reveals that this landlord likely has a lot of multifamily areas or mix use buildilngs (for ex. many types of store in building)
      - One thing that is clear is that the amount of violations suggests that the management has very _bad_ property management system or law of staff/ oversight. If a person were to look into managements to investigate this place would be the best to look into given the amount of violations that they have. Students that are looking into good landlords, should NOT rent with this landlord given their track record.
+
+
+# Question 7: What landlords are non-compliant? Overall volume, severe violations.
+
+`Non-compliant:` here refers to buildings rated Poor, Very Poor, or Unsound, indicating serious habitability or structural issues.
+
+## Data Processing (Q7)
+```
+non_compliant_conditions = ['P - Poor', 'VP - Very Poor', 'US - Unsound']
+severe_conditions = ['VP - Very Poor', 'US - Unsound']
+```
+
+1. Condition definition: defines non compliant properties as those in poor (P), very poor (VP), or unsound (US) condition.
+     - Severe violations are a subset: only very poor and unsound properties, which pose the most urgent habitability concerns.
+     - After defining conditions, binary flags were created for each property:
+     - `non_compliant: ` 1 if the property is not at standard.
+     - `severe_non_compliant:` 1 if it falls in the most dangerous categories.
+2. Aggregating by landlord
+     - For this step, calculates for each landlord:
+         - `total_properties:` number of properties they own
+         -  count of their properties that are flagged as non-compliant
+         - those that are severely non-compliant
+3. Filtering: Landlords with zero violations are filtered out, leaving only non-compliant landlords for further analysis.
+
+## Data Anslysis (Q7)
+
+<img width="683" alt="Screenshot 2025-04-30 at 9 33 52 PM" src="https://github.com/user-attachments/assets/ea9b3c67-fb6f-44df-b2ba-7a543afe0f4c" />
+> figure 1
+
+
+Given figure 1: 
+- Top offenders—Lynch Virginia H TS; Michael E Haynes Arms LLC; 392-402 Boylston Street Realty LLC—each own multiple properties in poor, very poor, or unsound condition.
+- The presence of multiple violations across limited holdings may reflect chronic neglect or systemic management issues.
+- `City of Boston:` The City of Boston appearing is significant because it may suggest deferred maintenance on city owned housing, tax foreclosed properties, or properties undergoing transition.
+    - The repeated appearance of LLCs suggests that corporate ownership may be a contributing factor in non-compliance, possibly due to lack of local management or investment-focused ownership models.
+- The analysis of this is yet to be finished before the end of the semester. if given more time, we could definitely spend the majority of time on this question as a next step.
+
+## Preliminary results (Q7)
+
+1. Landlord responsibility:
+   - these landlords like Lynch Virginia and Michael E Haynes Arms LLC are emerging as consistent non-compliance actors. They can be prime targets for focused enforcement
+  
+2. Public Sector Results
+   - The City of Boston owns some non-compliant properties. This is suspicious because, for us, it raises questions around:
+      - Delays in city-led redevelopment
+      - neglect of vacant land or foreclosed buildings
+      - transparency behind housing code enforcement for city-owned stock
+    
+3. We hope to continue this question if given more time. We believe there is a lot more analysis that can be done.
+
+
+# NEXT STEPS
+
+
+
+
 
 
