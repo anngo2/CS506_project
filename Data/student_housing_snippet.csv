@@ -1,0 +1,1001 @@
+6a. street #,6b. street name,6c. street suffix,6d. unit #,6e. zip,7. undergraduate (u) or graduate (g),8. full-time (ft) or part-time (pt),9. at-home or not-at-home,9. 5 or more undergrads/unit (y/n),university,year
+11,Vera,St,,212,U,FT,N,,University of Massachusetts-Boston,2016-2017
+24,Haviland,ST,,2115,U,FT,,N,Boston University,2018-2019
+224,Hanover,St,,2113,U,FT,Not-at-Hhome,,Suffolk University,2022-2023
+139,Washington,Street,,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+24,Minot Street,,Apt. 1,2122,G,Full Time,N,,Boston College,2016-2017
+19,Paul Gore 3,St,,2130,Graduate,Full Time,At home,,Northeastern University,2022-2023
+775,Beacon,Street,,2215,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+150,Huntington,Ave,,211,U,FT,N,,Berklee College of Music,2017-2018
+40,Chester,ST,9,2134,U,FT,,N,Boston University,2018-2019
+480,Massachusetts,Ave,3,02118-1495,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+90,Hammond 5,St,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+804,Centre,ST,301,2130.0,G,FT,N,,Boston University,2017-2018
+19,Saint Luke's,Rd,2,2134,U,FT,N,,Boston University,2020-2021
+26,Mount Vernon,Street,4R,2108,G,FT,N,,MGH Institute of Health Professions,2016-2017
+71,Symphony,Road,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+771,Beacon,st,Apt 311,2215,U,FT,,,Boston University,2022-2023
+97,,St,Apt 24,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+20,Sussex,Street,,2120,U,FT,Private,N,Northeastern University,2020-2021
+16,Westland avenue 48,,,2115,Graduate,Full Time,At home,,Northeastern University,2023-2024
+18A,Rockville,,Apt 2,211.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+147,Kelton,ST,405,2134.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+1325,Commonwealth,Ave,22,2134,U,FT,N,,Boston University,2021-2022
+24,saint cyprians place Apt #2R,,Apt #2R,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+96,St Botolph,St,7,2116,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+23,North Crescent,Circuit,1,2135,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+4,Prince,St,,2113,U,FT,N,,Suffolk University,2021-2022
+771,Harrison,Avenue,,2118,Graduate,FT,Not At Home,,Boston University,2023-2024
+132,Homestead,St,,2121,U,FT,N,,University of Massachusetts Boston,2020-2021
+99,Addison,St,,2128,U,FT,,N,Suffolk University,2018-2019
+,,STREET,APT NO 33 11 TETLOW BOSTON MA 02115,2115.0,G,FT,,,Northeastern University,2017-2018
+75,Saint Alphonsus,Street,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+150,Huntington,Ave,Apt SM6,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+9,pompei street,,Unit 1,2119,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+51,Greenwich,St,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+108,Gainsborough,Street,#402,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+96,HAMMOND,ST,,2120.0,G,FT,,,Northeastern University,2016-2017
+2005,Commonwealth Ave,,2,2135,U,FT,N,,Boston College,2020-2021
+30,B SAINT ALPHONSUS STREE,,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+1193,Commonwealth,Ave,,2134,U,FT,N,,Boston University,2020-2021
+220,Kelton,Street,Unit 3,2134,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+150,Huntington,Ave,SG1,2115,U,FT,,,Boston University,2022-2023
+,,,,2120,G,FT,Private,N,Northeastern University,2020-2021
+91,Gordon,st,#12,2135,G,FT,,,Boston University,2022-2023
+133,Peterborough,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+17,Radcliffe,rd,,2134,G,FP,,,Boston University,2022-2023
+16,Wise APT 2,Street,,2130,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+121,Park,Dr,21,2215,G,FT,N,,Suffolk University,2020-2021
+4,BREWER JAMAICA PLAIN,ST,,2130.0,G,FT,,,Northeastern University,2016-2017
+132,Brook,Ave.,3,2125,U,FT,N,,Bay State College,2017-2018
+290,Foster,St,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+1307,COMMONWEALTH UNIT-2,AVE,,2134.0,G,FT,,,Northeastern University,2016-2017
+251,,Heath St,Apt 406,2130,G,Part Time,Not-at-Home,,Boston College,2023-2024
+39,Hemenway,St,25,211,U,FT,N,,Berklee College of Music,2016-2017
+,,,,2115,G,FT,Private,N,Northeastern University,2020-2021
+49,Day,Street,,,Graduate,Part Time,,NO,Northeastern University,2019-2020
+495,Commonwealth,Ave,Apt 1,2215,U,FT,N,,Massachusetts Institute of Technology,2021-2022
+56,Park Vale,AVE,6,2134,G,FT,N,,Boston University,2016-2017
+3,Ware,St,1,2125,U,FT,N,,University of Massachusetts-Boston,2021-2022
+24,Farrington,Ave,3,213,U,FT,N,,Berklee College of Music,2016-2017
+168,Hillside,Street,2,2120,U,FT,Private,N,Northeastern University,2020-2021
+190,Lake Shore Rd,,1,2135,U,Full Time,N,,Boston College,2017-2018
+75,BRAINTREE,ST,,2134.0,U,FT,,,Northeastern University,2017-2018
+396,W Broadway,,,2127,G,PT,Not-at-Hhome,,Suffolk University,2022-2023
+38,Kirkwood,Rd,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+91,Westland,Ave.,Apt. 528,2115,G,FULL,,N,New England Conservatory,2018-2019
+5,Union,Ave,,2130,G,FT,,N,Suffolk University,2018-2019
+174,Bay State,RD,3,2215,G,PT,0,,Boston University Updated Report 30Nov2017,2017-2018
+1056,Commonwealth,AVE,51,2215.0,U,FT,N,,Boston University,2017-2018
+96,Gainsborough,st,204,2115,U,FT,Private,N,Northeastern University,2020-2021
+79,Prince,St.,Apt. 8,2113,G,FT,N,,Suffolk University,2016-2017
+80,Walter,St,,2131,U,FT,At-home,,MA College of Pharmacy and Health Sciences,2022-2023
+1500,Tremont,Street,Apartment,2120,U,FT,Private,N,Northeastern University,2021-2022
+9,Miner,Street,Apt 313,2215,G,FT,,N,New England College of Optometry,2019-2020
+17,Edinboro,ST,5,2111,G,FT,,N,Boston University,2018-2019
+240,Foster Street,,,2135,U,FT,Not-at-Home,,Boston College,2023-2024
+,,,,2120,U,FT,Private,N,Northeastern University,2021-2022
+1,Nassau,Street,1407,2111,U,FT,Not-at-Home,,Emerson College,2022-2023
+46,STEPHAN ST,ST,APT 1,2115.0,U,FT,,,Northeastern University,2016-2017
+30,OPHIR FLOOR,STREET,3,2130.0,U,FT,,,Northeastern University,2017-2018
+52,Clearway,St,1,02115-3305,U,PT,,,Berklee College of Music-Boston Conservatory,2022-2023
+62,Hillside,Street,2,2120,U,FT,,N,Simmons University,2018-2019
+,Apt 2 400 MASS,Ave,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+38,Auckland,St,Apt 3,2125,U,FT,,N,University of Massachusetts-Boston,2018-2019
+659,Massachusetts,Avenue,,2118,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+8 Parker Hill Ave,,,,2115,G,FT,,,Massachusetts College of Pharmacy and Health Sciences,2016-2017
+151,Centre Unit-1,Street,,2119,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+8,Harvard Terrace 3,,,2134,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+15,Gardner,St,Apt 11,2134,G,FT,N,,MCPHS University,2020-2021
+101,South Huntington,Avenue,,2130,G,FT,Private,N,Northeastern University,2021-2022
+2,Wigglesworth,St,1,2120,G,FT,N,,Boston University,2020-2021
+580,Washington,ST,400,2111,G,FT,,N,Boston University,2018-2019
+1,Avery,Street,Appt,2111,U,FT,Private,N,Northeastern University,2021-2022
+385,Commonwealth,Ave,,02115-1802,U,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+11,Fawndale,Rd.,Apt. 2,2131.0,U,FT,N,,New England Conservatory,2017-2018
+2012,Commonwealth,Ave,,2135,GR,PT,,N,Simmons University,2019-2020
+69,Gainsborough 9,Street,,2115,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+11,Worthington,St,,2120,G,FT,Not-at-Home,,Harvard University,2022-2023
+739,Parker,Street,Apt 2,2120,Graduate,Full Time,At home,,Northeastern University,2022-2023
+790,Boylston,St,24F,2199,U,FT,N,,Berklee College of Music,2016-2017
+509,Beacon,Street,8,2215,G,FT,,N,Emerson College,2018-2019
+9,Vineland,ST,,2135,U,FT,N,,Boston University,2016-2017
+216,calumet,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+1666,Commonwealth,AVE,,2135.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+68,PLEASANT,STREET,,2125.0,U,FT,,,Northeastern University,2017-2018
+8,Adella,Pl,#2,2134,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+15,Saint Germain,St,1,02115-3269,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+210,Lake Shore,Rd,4,2135,Grad,Full Time,,N,Boston College,2018-2019
+27,Park,Drive,9,2215,G,FT,Private,N,Northeastern University,2020-2021
+23,Roseland,St,1,2124,U,FT,N,,University of Massachusetts Boston,2020-2021
+409,MARLBOROUGH,ST,14,2115.0,U,FT,,,Northeastern University,2016-2017
+580,WASHINGTON,STREET,APT 11B,2111.0,U,FT,,,Northeastern University,2017-2018
+6,Chilcott,Pl.,Apt. 2,2130,G,FT,,N,New England Conservatory,2019-2020
+150,Huntington,Ave,Sa5,02115-4808,U,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+84,Gainsborough St. Apt. 1,,Apt. 1,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+1365,BOYLSTON APARTMENT,STREET,748,2215.0,U,FT,,,Northeastern University,2017-2018
+44,Hosmer,St,Apt 3,2126,G,PT,,N,University of Massachusetts-Boston,2018-2019
+613,Dorchester,Ave,2,2127,G,FT,,N,Boston University,2019-2020
+24,Haviland,St,19,211,U,FT,N,,Berklee College of Music,2017-2018
+24,Saint Cyprians Place #4R,,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+28,Westland 4,Avenue,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+40,Weld Hill,St.,#3,2130,U,FT,,N,New England Conservatory,2019-2020
+1079,commonwealth,"Ave,",,2215,U,FT,,,Boston University,2022-2023
+21,Gerald Road,,,2135,U,FT,N,,Boston College,2021-2022
+62,Boylston,St.,Apt. 909,2116,U,FT,N,,Suffolk University,2016-2017
+,APARTMENT 111 240 HEATH,STREET,,2215.0,G,FT,,,Northeastern University,2017-2018
+1282,Boylston,St,,2215,G,FT,,,Boston University,2022-2023
+306,Centre,Street,2,2130,G,FT,Private,N,Northeastern University,2021-2022
+,,,,2130,U,PT,N,,University of Massachusetts Boston,2020-2021
+40,Fisher,Avenue,203,2120,G,FT,Private,N,Northeastern University,2021-2022
+72,Saint Alphonsus 1011,Street,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+39,Chester,ST,1,2134.0,G,FT,N,,Boston University,2017-2018
+94,Gladstone,St,,2128,G,FT,N,,Suffolk University,2020-2021
+1079,Commonwealth,Ave,306,2215,U,FT,N,,Boston University,2021-2022
+266,E Berkeley,Street,338,2118,U,FT,,n,Boston Architectural College,2018-2019
+12,Blackwood,St,220,2115.0,G,FT,,,Tufts University-SMFA,2017-2018
+1,franklin,street,,2110,U,FT,Private,N,Northeastern University,2020-2021
+32,Symphony Rd. Unit 2,,Unit 2,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+43,Sycamore,St,,213.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+75,saint alphonsus street 1903,,,2120,Graduate,Full Time,At home,,Northeastern University,2023-2024
+230,South,St,8,2130.0,G,FT,,,Tufts University-SMFA,2017-2018
+479,Washington,ST,,2135,U,FT,N,,Boston Architectural College,2021-2022
+345,Harrison,Ave,560,2118,G,FT,N,,Boston University,2020-2021
+,534 Beacon St,,Apartment 1006,2115.0,U,PT,,,Massachusettes College of Art and Design,2017-2018
+146,Hillside #1,Street,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+80,Fenway 24,,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+9,Radnor Rd.,,,2135,U,Full Time,N,,Boston College,2016-2017
+86,W CEDAR,ST,7,2114,G,FT,Not-at-Home,,Tufts University,2022-2023
+125,guest,st,623,2135,U,FT,Private,N,Northeastern University,2020-2021
+,Guild,Street,,2119,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+36,Harrison,Ave,Apt 402,211,G,FT,N,,University of Massachusetts-Boston,2016-2017
+34,Chiswick Rd.,,Apt 3,2135,G,Full Time,N,,Boston College,2021-2022
+371,Commonwealth,Ave,306,2115,G,FT,N,,Boston University,2021-2022
+25,Gerald Rd,,,2135,U,Full Time,N,,Boston College,2017-2018
+168,Massachusetts,Ave,,2115,U,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+34,STEPHENS ST,ST,APT 1,2115.0,U,FT,,,Northeastern University,2017-2018
+1209,Boylston,Street,,2215,Graduate,Full Time,At home,,Northeastern University,2022-2023
+103,HEMENWAY,ST,#6,2115.0,U,FT,,,Northeastern University,2017-2018
+109,Peterborough,St,E,02215,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+400,Brookline,,Apt 8B,2215,G,FT,At-home,,MA College of Pharmacy and Health Sciences,2022-2023
+1047,commonwealth,ave,301,2215,U,FT,,,Boston University,2022-2023
+852,Huntington,AVE,3,2879,U,FT,Not at Home,,Emmanuel College,2022-2023
+400,Massachusetts 61,Avenue,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+1260,Boylston,Street,,2215,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+1079,Commonwealth,Avenue,,2134,U,FT,,N,University of Massachusetts-Boston,2018-2019
+30,Moreland,ST,2,2119.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+1065,TREMONT,ST,302,2120.0,U,FT,,,Northeastern University,2017-2018
+270,Babcock,ST,,2215,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+273,Lamartine,St.,Apt. 2,2130,G,FULL,,N,New England Conservatory,2018-2019
+95,Park,Dr,,2215,G,FT,Private,N,Northeastern University,2020-2021
+55,Park,Drive,19,2215,U,FT,Private,N,Northeastern University,2021-2022
+18,Whitten,St,,212,U,FT,N,,University of Massachusetts-Boston,2016-2017
+41,Saint Edward,Rd,,2128,U,FT,,N,Suffolk University,2018-2019
+519,Massachusetts,AVE,3,2118,U,FT,N,,Boston University,2016-2017
+114,Riverway,,Apt 2,2215.0,G,FT,N,,MIT UAR Fall 2017-update,2017-2018
+888,Tremont,St,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+37,South Russell,St,4,2114,U,FT,,N,Suffolk University,2019-2020
+9,LARK,DR,,2126.0,G,FT,,,Northeastern University,2017-2018
+179,Chelsea,St,,2128,U,PT,N,,University of Massachusetts Boston,2020-2021
+1377,Commonwealth,AVE,7,2134.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+,63 Hillside St,,,212,U,FT,Y,,Wentworth Institute of Technology,2016-2017
+16,South Street,,2,2135,U,FT,Not-at-Home,,Boston College,2023-2024
+1350,Boylston,St,PH1701,2215,G,FT,Not-at-Home,,Harvard University,2023-2024
+13,hecla,St,apt #3,,UG,Full-Time,,No,MCPHS University,2019-2020
+40,East Pier,Dr,2209,2128,G,FT,,,Tufts University,2018-2019
+65,Lanark,Rd,Apt 5,2135,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+199,N Harvard,St,N812,2134,G,FT,N,,Harvard University,2021-2022
+20,Hemenway,St,1,02115,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+150,Brookline,Ave,903,2215,U,FT,Private,N,Northeastern University,2021-2022
+12,Stoneholm,St,407,211,U,FT,N,,Berklee College of Music,2017-2018
+14,STOCKWELL,ST,APT 2,,UG,Full-Time,,No,MCPHS University,2019-2020
+74,Saint Stephen,Street,2,2115,U,FT,Private,N,Northeastern University,2021-2022
+40,Symphony,Rd,2,211,U,FT,N,,Berklee College of Music,2016-2017
+,144 Foster Street,,,2135,G,FT,,,MA College of Art and Design,2016-2017
+1625,Tremont,Street,,2120,G,FT,Private,N,Northeastern University,2021-2022
+1634,Commonwealth,St,9,2215,G,FT,,N,Boston University,2019-2020
+491,Beacon,St,1,2215,U,FT,N,,New England College of Optometry,2016-2017
+10,East Springfield,St,4,2118,G,PT,,N,Boston University,2019-2020
+58,Brock,ST,,2135,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+384,Commonwealth,Ave,,221,U,FT,N,,Berklee College of Music,2016-2017
+758,Shawmut,Ave,Unit 3,211,G,PT,N,,University of Massachusetts-Boston,2016-2017
+275,West 5th,ST,,2127.0,G,PT,N,,Boston University,2017-2018
+137,PARK,DRIVE,17,2215.0,U,FT,,,Northeastern University,2016-2017
+20,Armington,ST,12,2134,G,FT,,N,Boston University,2019-2020
+74,Browne,St,,2215,U,FT,N,,Boston University,2021-2022
+45,Stuart,St,1403,2116,G,FT,,N,Tufts University,2019-2020
+12,Bay State,Road,3F,2215,G,FT,,N,New England College of Optometry,2019-2020
+1501,Commonwealth,Ave,PH9,2135,U,FT,N,,Boston University,2020-2021
+120,Mountfort,Street,Room 304,2215,Graduate,FT,Not At Home,,Boston University,2023-2024
+17,Sachem,St,Apt 2,2120,U,FT,N,,Wentworth Institute of Technology,2021-2022
+37,Ashford,St,,213,U,PT,N,,University of Massachusetts-Boston,2016-2017
+97,Chester,ST,12,2134,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+346,Beacon,St,Apt 1,2116,G,FT,N,,Suffolk University,2016-2017
+400,Brookline,Ave,APT 17D,2215,G,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+1381,Commonwealth,AVE,7,2134.0,G,PT,0,,Boston University Updated Report 30Nov2017,2017-2018
+90,Gardner,St,24,2134,G,FT,N,,Boston University,2021-2022
+93,Bragdon,ST,2,2119,U,PT,,N,Urban College of Boston,2018-2019
+37,Long,AVE,2,2134.0,U,FT,1,,Boston University Updated Report 30Nov2017,2017-2018
+144,Addison,St,Apt 410S,2128,G,PT,Not-at-Home,,Suffolk University,2023-2024
+7,Granada,Park,Apt,2119,G,FT,Private,N,Northeastern University,2021-2022
+26,Worcester,ST,301,2118.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+23,Lake,Court,Apt 2,0P,G,PT,N,,Simmons College,2016-2017
+17,Wyvern,St,3,2131,G,PT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+13,Ruthven,St,1,2121,G,FT,At-Home,,Harvard University,2022-2023
+,26b st alphonsus street 26 b,,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+190,Washington,St,,2135,U,FT,,N,Boston University,2019-2020
+230,E Eagle,St,,212,U,FT,N,,University of Massachusetts-Boston,2016-2017
+24,Terrace #3,Boulevard,,2134,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+42,Saint Martin,St,1,212,U,PT,N,,Berklee College of Music,2017-2018
+74,Blake,St,,2136,U,PT,Not at home,,University of Massachusetts-Boston,2023-2024
+14,Hancock,St,Apt 5,2114.0,U,FT,N,,Suffolk University,2017-2018
+133,Petersborough 5A,,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+660,Washington,ST,,2111,U,FT,,Y,Boston University,2018-2019
+47,Allston,ST,,2134,U,FT,,N,Boston University,2018-2019
+27,LAMARTINE,ST,3,2130,G,FT,N,,Tufts University,2020-2021
+196,Saint Botolph St.,,Apt. 4F,2115,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+2012,Commonwealth,Ave,1E,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+1185,Commonwealth,AVE,5,2134,U,FT,N,,Boston University,2016-2017
+38,Edgewood,St,1,02119-2664,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+22,Vinton,St,Apt 3,2127,G,FT,,N,University of Massachusetts-Boston,2018-2019
+93 Hillside St 0,,,,2115.0,G,FT,N,,MCPHHS University,2017-2018
+62,Hillside,St,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+486,SHAWMUT,AVE,UNIT 5,2118.0,G,FT,,,Northeastern University,2017-2018
+36,School,St,,2135,G,FT,,N,Suffolk University,2019-2020
+184,Thornton,St,,2119,U,FT,N,,University of Massachusetts-Boston,2021-2022
+62,Boylston,St,808,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+14,Palace,Rd,#6,2115,G,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+20,Charlesgate W,,625,02215,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+405,Beachon,"Street,",7,2115,G,FT,,N,Boston Architectural College,2019-2020
+46,WESTLAND 12A,AVE,,2115.0,G,FT,,,Northeastern University,2016-2017
+32,Park Vale,AVE,,2215,U,FT,,N,Boston University,2018-2019
+75,Peterborough,St,112,2215,U,FT,N,,Boston University,2021-2022
+24,Ransom,RD,10,2135.0,G,FT,N,,Boston University,2017-2018
+3,DOUGLASS PARK,,#106,2118.0,U,FT,,,Northeastern University,2017-2018
+141,Nottinghill Rd,,,2135,G,Full Time,N,,Boston College,2020-2021
+833,Beacon,St,306,2215,U,FT,N,,Boston University,2021-2022
+2001,Commonwealth,Ave,16,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+51,Park,Drive,B1,2215,U,FT,Private,N,Northeastern University,2020-2021
+1062,Hyde Park,Ave,Apt 1,213.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+221,kelton,"st,",,2134,G,FP,,,Boston University,2022-2023
+3,NIRA,AVE,#3,2130.0,G,FT,,,Northeastern University,2017-2018
+73,Rutland,Street,,2118,G,Part Time,Home,,Boston College,2022-2023
+1982,Commonwealth Avenue,,7,2135,U,FT,Not-at-Home,,Boston College,2023-2024
+375,Mount Vernon,St,Apt 419,212.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+32,South Huntington,Avenue,,2130,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+3,Sudan,St,Apt 1,2125,U,FT,Not-at-Home,,Suffolk University,2023-2024
+739,Parker St. #3,,#3,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+230,Babcock,ST,2A,2215,U,FT,N,,Boston University,2016-2017
+97,Northampton,St,4A,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+1344,Hyde,Ave,384,2136,U,PT,N,,University of Massachusetts-Boston,2021-2022
+820,Parker,Street,1,2120,G,FT,Private,N,Northeastern University,2021-2022
+1638,Commonwealth,Avenue,Apt #3,2135,Graduate,Full Time,At home,,Northeastern University,2023-2024
+33,Chelsea,St,Apt 3,2128,U,FT,Not-at-Home,,Suffolk University,2023-2024
+19,Edison Green,,#1,2125,Grad,Part Time,,N,Boston College,2019-2020
+63,Burbank,"St,",,2115,U,FT,,,Boston University,2022-2023
+5,,Fan Pier Boulevard,Unit 624,2210,G,Full Time,Not-at-Home,,Boston College,2023-2024
+162,allston,street,2,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+1193,Commonwealth,Ave,20,2134,U,PT,N,,Suffolk University,2020-2021
+45,ashford,ST,19,2134,U,FT,N,,Boston University,2016-2017
+304,Centre,Street,Apt. 2,2130,G,FT,N,,Boston Conservatory at Berklee,2016-2017
+30,mamelon circle,,,2126.0,U,FT,,,Fisher College,2017-2018
+70,Fenway,,#2 2,02115,G,FT,not-at-home,,Massachusetts Institute of Technology,2023-2024
+14 Shepherd Ave,,,apt #3,2115,G,FT,,,Massachusetts College of Pharmacy and Health Sciences,2016-2017
+26,Parmenter,St,Apt 1,2113,G,FT,Not-at-Hhome,,Suffolk University,2022-2023
+91,Westland,Ave,715,02115-3827,U,PT,,,Berklee College of Music-Boston Conservatory,2022-2023
+4,O,Street,1,2127,G,FT,Home,N,Northeastern University,2020-2021
+50,Armandine,St,3,2124,U,FT,N,,Suffolk University,2020-2021
+42,Beach,St,5A,2111,U,FT,,N,Suffolk University,2019-2020
+331,HUNTINGTON,AVENUE,APT 11,2115.0,G,FT,,,Northeastern University,2016-2017
+42,Milton,St,Apt 2,2124,G,FT,,N,University of Massachusetts-Boston,2018-2019
+6,Esmond,St,Apt 301,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+9,Miner,ST,501,2215,U,FT,,N,Boston University,2018-2019
+91,Cedar  Apt,Street,1,2119,G,Full Time,Home,,Boston College,2022-2023
+989,TREMONT,ST,APT,2120,G,FT,Home,N,Northeastern University,2020-2021
+38,Clearway,Street,,2115,Undergraduate,Full Time,At home,,Northeastern University,2023-2024
+371,Commonwealth,Ave,Apt 208,2115,G,FT,,N,New England College of Optometry,2019-2020
+40,Boylston,St,,2116,G,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+97,Chester,ST,4A,2134.0,G,FT,N,,Boston University,2017-2018
+47,Park Vale,Avenue,Apt 11,0P,U,PT,N,,Simmons College,2016-2017
+34,Cambridge,Street,,2129,G,Part Time,Home,,Boston College,2022-2023
+44,Grampian,Way,,2125,G,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+41,Allston,St,# 2,2134,U,FT,At-Home,,Suffolk University,2022-2023
+150,huntington,Ave,greenhouse,2115,U,FT,Private,N,Northeastern University,2021-2022
+44,Winter,ST,204,2108.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+383,Commonwealth,Ave,4a,02115-1805,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+,,,,2120,G,FT,Private,N,Northeastern University,2020-2021
+1445,Tremont,Street,#2S,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+,660 Washington St Apt 20E,,,211.0,U,F,N,,Wentworth Institute of Technology,2017-2018
+,75 Saint Alphonsus St Apt 716,,,212,U,FT,,,Wentworth Institute of Technology,2016-2017
+1,Larose,PL,1,2135.0,G,FT,N,,Boston University,2017-2018
+311,Allston,St,Apt 9,2135,G,FT,Not-at-Hhome,,Suffolk University,2022-2023
+40,Pomeroy,ST,,2134,G,FT,N,,Boston University,2016-2017
+1861,Dorchester,Ave,Unit 1,2124,G,PT,,N,University of Massachusetts-Boston,2018-2019
+60,Prince,St,12,2113,G,FT,,N,Tufts University,2019-2020
+45,Orkney road,,#2,2135,U,FT,N,,Boston College,2021-2022
+636,Beacon,Street,,2215,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+539,Clinton,Road,,02467,G,FT,,N,New England College of Optometry,2018-2019
+6,Eldora St,,Apt 2,02120-3493,Undergraduate,Full Time,,N,Wentworth Institute of Technology,2019-2020
+75,Peterborough,St,101,2215,G,FT,N,,Boston University,2021-2022
+,Dorchester,Avenue,,2125,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+150,North Beacon,Street,Apt A1,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+3,Gloucester,St,7,2115,G,FT,N,,Suffolk University,2021-2022
+220,Kelton,St,,2134.0,G,PT,N,,University of Massachusetts-Boston,2017-2018
+31,Dunreath,St,,2119,U,FT,,N,University of Massachusetts-Boston,2018-2019
+81,Essex,Street,Apt 23,2111,G,FT,N,,Emerson College,2016-2017
+12,Dighton,St,,2135,G,FT,N,,Boston University,2020-2021
+39,Surrey,Street,,2135,Grad,Full Time,,N,Boston College,2019-2020
+185,Blue Ledge,Drive,,2131,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+317-15,Allston,Street,,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+219,Western,Avenue,S312,2134,G,FT,,,Harvard University,2019-2020
+231,Park,Dr,Apt 41,2215,U,FT,N,,Suffolk University,2016-2017
+86,Roseclair,St,1,2125,G,PT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+242,Foster,St,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+109,SAINT STEPHEN,STREET,APT 9,2115.0,G,FT,,,Northeastern University,2016-2017
+72,Gardner,Street,,2134,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+345,Harrison ave. apt.576,,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+125,Guest,St,1703,2135,G,FT,Not-at-Home,,Harvard University,2023-2024
+64,Undine Rd.,,,2135,U,Full Time,,,Boston College,2016-2017
+7,Harvard,AVE,3,2134,G,FT,N,,Boston University,2016-2017
+14,Sutherland,Road,2,2135,Grad,Full Time,,N,Boston College,2019-2020
+75,Westwind,Rd,,2125,G,FT,,N,University of Massachusetts Boston,2019-2020
+240,Devonshire,Street,Unit 5412,2110,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+10,Cooper,St,,2113.0,G,FT,,,Tufts University-SMFA,2017-2018
+456,Beacon,St,8,2115,G,FT,N,,New England College of Optometry,2016-2017
+94,Tyler,St,8,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+151,Park,Dr,34,221,U,FT,N,,Berklee College of Music,2017-2018
+150,Huntington,Ave,SB2,02115,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+52,Saxton,St,Apt 2,2125,U,FT,N,,University of Massachusetts Boston,2020-2021
+45,East Newton,ST,710,2118.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+116,Washington,St,52,2135,G,FT,N,,Boston University,2021-2022
+84,Linden,St,1,2134,U,FT,N,,Boston University,2021-2022
+78,Romsey,Street,Apt 3,2125,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+161,Lake Shore,Road,,2135,G,Full Time,Not at home,,Boston College,2022-2023
+1163,BOYLSTON APARTMENT,STREET,6,2215.0,G,FT,,,Northeastern University,2017-2018
+383,West,St,,2136,U,FT,N,,University of Massachusetts Boston,2020-2021
+409,Marlborough,St,14,2115,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+219,WESTERN AP S611,AVE,,2134.0,U,FT,,,Northeastern University,2017-2018
+88 Fisher Ave APT #3,,,,2120.0,U,FT,N,,MCPHHS University,2017-2018
+12,Stoneholm,Street,Apt 623,2115,Graduate,FT,Not At Home,,Boston University,2023-2024
+37,Worcester,Street,Apt 5,0P,U,FT,N,,Simmons College,2016-2017
+1940,Commonwealth,Avenue,,2135,U,Full Time,Home,,Boston College,2022-2023
+1634,Commonwealth,Ave,23,2135,G,FT,,N,Boston University,2019-2020
+182,Princeton,St,,2128,G,FT,Not-at-Home,,Suffolk University,2023-2024
+660,Washington,St,,2111,U,FT,,,Fisher College,2018-2019
+868,Beacon,ST,8,2215,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+171,Washington,St,2314,2135,G,FT,N,,Boston University,2021-2022
+375,Broadway,,#208,2150.0,G,FT,N,,Simmons College,2017-2018
+15,Kenilworth,Street,Apt 3,2119,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+43,Park,Dr,1,2134,G,FT,N,,Boston University,2021-2022
+1047,Commonwealth,Avenue,Apt 605,2215,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+416,Commonwealth,Avenue,320,2215,U,FT,,n,Boston Architectural College,2018-2019
+10,Vinal,St,Apt 10,02135,G,FT,Not at home,,New England College of Optometry,2022-2023
+616,Columbus,Ave,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+16,Euston,ST,2,2215,G,FT,N,,Boston University,2016-2017
+65,OCEAN VIEW,DRIVE,#23,2125.0,G,FT,,,Northeastern University,2017-2018
+249A,Foster,St,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+11,FORBES APARTMENT NUMBER1 JAMAICA PLAIN,STREET,,2130.0,G,FT,,,Northeastern University,2017-2018
+558,Washington St,Street,,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+693,PARKER,STREET,APT C,2120.0,G,FT,,,Northeastern University,2017-2018
+38,Westland 32,Avenue,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+11,TETLOW,ST,#27,2115.0,U,FT,,,Northeastern University,2017-2018
+149,Park,Drive,4,2215,G,FT,Private,N,Northeastern University,2020-2021
+883,Huntington,Avenue,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+1114,Saratoga,St,,2128,U,FT,N,,Suffolk University,2021-2022
+914,Beacon,ST,3,2215,G,FT,N,,Boston University,2016-2017
+12,Parker Hill Ave. Ap.t 3,,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+1472A,Commonwealth,AVE,1,2135.0,G,PT,0,,Boston University Updated Report 30Nov2017,2017-2018
+20,Colborne,RD,6,2135.0,G,FT,N,,Boston University,2017-2018
+45,Delle,Avenue,Unit,2120,G,FT,Private,N,Northeastern University,2021-2022
+,11 Tetlow St Apt 53,,,211,U,FT,,,Wentworth Institute of Technology,2016-2017
+14,Ashford,St,A2,2134,U,FT,N,,Boston University,2021-2022
+7,Ocean View,Dr,Apt 705,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+59,Saxton,St,,2125,G,FT,At-Home,,Suffolk University,2022-2023
+5,Walbridge,St,Apt 1,2134,Grad,Full Time,,N,Boston College,2019-2020
+139,Washington,Street,507,2135,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+5,Fan Pier,Blvd,1610,2210,Graduate,FT,At Home,,Boston University,2023-2024
+4090,Washington,Street,,2131,U,FT,,N,University of Massachusetts-Boston,2018-2019
+17,Aberdeen,st,apt 6,2215,U,FT,,,Boston University,2022-2023
+45,Beech Glen,Street,Apt 2,2119,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+47,Saint Margaret,St,3,2125,G,FT,N,,University of Massachusetts Boston,2020-2021
+175,Freeman,ST,,2134,U,FT,,N,Boston University,2018-2019
+90,Minot,St,,2122,U,FT,,N,University of Massachusetts Boston,2019-2020
+24,Chestnut,Avenue,Unit 3,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+219,Western,AVE,S401,2134.0,U,FT,3,,Boston University Updated Report 30Nov2017,2017-2018
+,29 pratt st,,,2134,G,FT,,,MA College of Art and Design,2016-2017
+11,Hartford,St,,02125,G,FT,At Home,,New England College of Optometry,2022-2023
+99,Kneeland,St,703,2111,U,FT,,N,Suffolk University,2019-2020
+14,Palace APT 12A,Road,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+14A,Ashford,St,1,2134,U,FT,,N,Boston University,2019-2020
+1025,Tremont,St,,2118,U,FT,Private,N,Northeastern University,2021-2022
+9,Colborne,Rd.,Apt. 4,2135,G,FT,,,New England Law,2023-2024
+140,Wrentham,St,St,2124,U,PT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+505,Beacon,Street,Apt 8,2215,G,FT,,N,New England College of Optometry,2019-2020
+7,Alleghany St,,#2,2120,G,Full Time,N,,Boston College,2016-2017
+137,Pleasant,Street,Apt. 2,2125,G,PT,,,New England Law,2019-2020
+,10 Farquhar Street,,,2131,G,FT,,,MA College of Art and Design,2016-2017
+71,Old Landing,Way,Apt A,212,U,FT,N,,University of Massachusetts-Boston,2016-2017
+15,Germania,St,#  2,2130,U,PT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+143,Park Drive,,,2215,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+1209,Boylston 7,Street,,2215,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+10,Emerson,Pl,25,2114,G,FT,N,,Harvard University,2021-2022
+402,Centre 3,Street,,2130,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+400,Brookline,Ave,,,GR,FT,,N,MCSPHS University,2018-2019
+88,Sanborn Ave,,Unit 1,2132,G,Part Time,N,,Boston College,2016-2017
+660,Washington,St,22J,2111,U,FT,N,,Suffolk University,2020-2021
+65,N Point,Dr,506,2125,U,FT,,N,Suffolk University,2019-2020
+75,Alphonsus St J Vue at the LMA Apartments,St,,2115,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+102,Bennett,Street,,2135,G,Full Time,Home,,Boston College,2022-2023
+213,Chestnut Hill,Avenue,1,2135,Undergrad,Full Time,,N,Boston College,2019-2020
+1004,Hyde Park,Avenue,,2136,Undergraduate,Full Time,At home,,Northeastern University,2023-2024
+504,Beacon,St,5,02115-1028,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+120,Brainerd,Rd,15,2134,G,FT,N,,Boston University,2020-2021
+1505,Commonwealth,AVE,314,2135.0,U,FT,2,,Boston University Updated Report 30Nov2017,2017-2018
+636,Beacon,Street,401,02215,G,FT,,N,New England College of Optometry,2018-2019
+60,Brainerd,RD,217,2134,G,FT,,N,Boston University,2018-2019
+1039,Commonwealth,AVE,32,2215,U,FT,N,,Boston University,2016-2017
+1173,Commonwealth,Avenue,Apt 3,2134,U,FT,,,Boston University,2022-2023
+11,Tetlow,St,St,2115,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+1126,Boylston,Street,507,2215,G,FT,Private,N,Northeastern University,2020-2021
+35,William T Morrissey,Blvd,2518,2125,G,FT,N,,Boston University,2020-2021
+25,Wait,Street,,2120,U,FT,Private,N,Northeastern University,2020-2021
+6,Orkney,Rd,31,2135,Grad,Full Time,,N,Boston College,2019-2020
+2,Worthington,St,Unit 2,2120,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2022-2023
+62,S Huntington,Ave,#14,2130,G,FT,,,New England Law,2022-2023
+65,Hemenway 10,St,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+266,E BERKELEY,ST,532,2118,G,FT,Not-at-Home,,Tufts University,2023-2024
+86,Brainerd,Road,Unit 21,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+44,Alleghany,Street,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+75,Saint Alphonsus,Street,1016,2120,G,FT,Private,N,Northeastern University,2021-2022
+12,Parker Hill,Avenue,2,2120,U,FT,Private,N,Northeastern University,2021-2022
+89,East Dedham,Street,Unit 110,2118,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+15,North Beacon,ST,514,2134,G,FT,,N,Boston University,2018-2019
+336,CENTRE ST JAMICA PLAIN,,,2130,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+1650,Commonwealth,Avenue,Apt 406,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+70,Fenway,,36,211,U,FT,N,,Berklee College of Music,2017-2018
+378,Columbus,Ave,,2116,G,FT,,,Boston University,2022-2023
+126,Border,St,Unit 231,2128,G,FT,Not-at-Home,,Suffolk University,2023-2024
+17,Wachusett APT 1,Street,,2130,Undergraduate,Full Time,At home,,Northeastern University,2023-2024
+1028,Commonwealth,Avenue,Apt. . 305,2215,U,FT,,,Boston University,2022-2023
+1505,Commonwealth,Ave,401,2135,G,FT,N,,Boston University,2020-2021
+45,STUART,ST,906,2116,G,FT,N,,Tufts University,2021-2022
+76,West,St,,213,U,FT,N,,University of Massachusetts-Boston,2016-2017
+17,Taft,Street,1,2125.0,G,FT,N,,Harvard University,2017-2018
+40,PARKER HILL,AVE,12,2115,G,FT,Private,N,Northeastern University,2020-2021
+601,Albany,ST,507,2118,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+83,Gardner,St,105,2134,U,FT,N,,Boston University,2021-2022
+60,Charlesgate,E,J4,2215,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+28,Wadsworth,St,,2134,U,FT,,Y,Boston University,2019-2020
+6,Lothian Road #2,,2,2135,U,FT,N,,Boston College,2021-2022
+40,Malvern St. Apt 208,,Apt 208,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+4,Lorraine,Terrace,Apt 2,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+87 Hillside St Apt 3,,,,2120.0,G,FT,N,,MCPHHS University,2017-2018
+508,Medford,St,,2129,U,FT,At-Home,,Suffolk University,2022-2023
+188,Hillside,Street,1,2120,U,FT,Private,N,Northeastern University,2020-2021
+409,Marlborough,St,42,02115-1557,U,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+179,Condor,St,,2128,U,PT,Not at home,,University of Massachusetts-Boston,2023-2024
+38,Hemenway,St,14,02115,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+71,Avalon,Rd,,2132,G,PT,,N,University of Massachusetts Boston,2019-2020
+16,South Huntington,Avenue,Apartment,2130,G,FT,Private,N,Northeastern University,2020-2021
+13,Haviland,St,Apt 8,02115-2674,U,FT,N,,Berklee College of Music & Boston Conservatory,2020-2021
+125,Glenville,Avenue,Unit 4,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+131,Park,Dr,,,UG,Full-Time,,No,MCPHS University,2019-2020
+1855,Washington,St,Apt 8F,2118,U,FT,N,,University of Massachusetts-Boston,2021-2022
+1079,Commonwealth,AVE,207,2215,U,FT,,N,Boston University,2018-2019
+1526,TREMONT,AVE,,2120.0,U,FT,,,Northeastern University,2016-2017
+124,Calumet street 2,,,2119,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+63,Lenox,St,,211,U,FT,N,,University of Massachusetts-Boston,2016-2017
+1039,Commonwealth,AVE,11,2215,U,FT,,N,Boston University,2018-2019
+65,Saint Mary's,St,1,2215,U,FT,,N,Boston University,2019-2020
+256,Parker Hill,Avenue,12,2120,U,FT,Home,N,Northeastern University,2020-2021
+75,Peterborough,Street,310,2215,G,FT,Private,N,Northeastern University,2020-2021
+144,Savin Hill,Ave,Apt 2R,2125,U,FT,N,,University of Massachusetts-Boston,2021-2022
+3,Wigglesworth,St,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+12,Roberts,Rd,,,UG,Full-Time,,No,MCPHS University,2019-2020
+12,Blackwood,St,410,2115,G,FT,N,,Boston University,2020-2021
+150,Morrissey Blvd.,,Jesuit Community,2125,G,Part Time,N,,Boston College,2016-2017
+35,Lomasney,Way,2201,2114,U,FT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+50,Saint Stephen,ST,4,2116.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+10,Eldora,Street,,2120,U,FT,Private,N,Northeastern University,2021-2022
+20,Hemenway,St,7,02115,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+150,Brookline,Ave,,2215,U,FT,Private,N,Northeastern University,2020-2021
+106,Saint Stephen,Street,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+263,Chestnut,Ave,Apt 3,02130-4436,U,PT,N,,Berklee College of Music & Boston Conservatory,2020-2021
+32,Gordon,ST,1,2134,U,FT,N,,Boston University,2016-2017
+53,11 tetlow st,,,2115,Graduate,Full Time,,NO,Northeastern University,2019-2020
+181,Washington,St,3607,2135,U,FT,N,,Boston University,2021-2022
+138,Northampton,ST,D,2118,G,FT,N,,Boston University,2016-2017
+255,Massachusetts,Avenue,Apt 503,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+75,St Alphonsus St Apartment - 2005 83 unit2 Highland Street,,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+10,Camelot,Court,#6D,2135,U,FT,,,Boston University,2022-2023
+20,Sussex,Street,,2120,U,FT,Private,N,Northeastern University,2020-2021
+212,Calumet 2,Street,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+22,Warren St.,,126,2135,G,Full Time,N,,Boston College,2016-2017
+219,Western,AVE,S307,2134.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+226,PARKER HILL,AVE,#11,2120.0,U,FT,,,Northeastern University,2017-2018
+270,Babcock,St,,2215,Graduate,FT,At Home,,Boston University,2023-2024
+833,Beacon,St,202,2215,U,FT,N,,Boston University,2021-2022
+171,HEMENWAY,STREET,APT 20,2215.0,G,FT,,,Northeastern University,2017-2018
+7,Pratt,ST,1,2134.0,G,FT,N,,Boston University,2017-2018
+94,Hillside,Street,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+683,Massachusettes,Avenue,,2118,Graduate,FT,Not At Home,,Boston University,2023-2024
+311,HUNTINGTON,AVENUE,APT 2B,2115.0,G,FT,,,Northeastern University,2016-2017
+197,Calumet,St,Apt 7,2120,U,FT,N,,Wentworth Institute of Technology,2021-2022
+73,Bushnell,St,,212,G,PT,N,,University of Massachusetts-Boston,2016-2017
+20,Cohasset,St,,2131,U,FT,,N,Suffolk University,2018-2019
+41,Iffley,Rd,,2130,G,FT,,,Massachusetts Institute of Technology,2022-2023
+15,North Beacon,St,1006,2134,G,PT,,N,Boston University,2019-2020
+214,HEMENWAY,ST,,2115.0,U,FT,,,Northeastern University,2016-2017
+103,Hemenway,St,16,2115,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+255,Massachusetts,Ave,503,2115,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+1482,Tremont,St,,,UG,FT,,N,MCSPHS University,2018-2019
+19,Bronsdon,ST,A,2135,U,PT,,N,Boston University,2018-2019
+1028,Commonwealth,Avenue,Apt. 304,2215,U,FT,,,Boston University,2022-2023
+42,Bayswater,St,,2128,U,FT,Y,,Suffolk University,2021-2022
+30,Cohasset,St,,2131,U,FT,N,,University of Massachusetts Boston,2020-2021
+107,Gordon,ST,3,2135,G,FT,N,,Boston University,2016-2017
+24,Glenville,AVE,2,2134.0,G,PT,1,,Boston University Updated Report 30Nov2017,2017-2018
+10,Harbor Point,Blvd,509,2125,U,FT,,N,University of Massachusetts Boston,2019-2020
+24,Gerald Rd,,1,2135,U,FT,N,,Boston College,2020-2021
+224,Lexington,St.,,2128,G,FT,,,New England Law,2019-2020
+1330,Boylston,St,,2215,U,FT,N,,Boston University,2020-2021
+42,Hazelwood,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+665,WASHINGTON,ST,207,2116,G,FT,Not-at-Home,,Tufts University,2023-2024
+1925,Commonwealth Ave.,,,2135,U,Full Time,N,,Boston College,2016-2017
+65,N Point,Dr,Apt 401,2125,G,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+5,Pond,Street,,2130,G,FT,,,Boston University,2022-2023
+32,SYMPHONY,RD,APT 3,2115.0,U,FT,,,Northeastern University,2016-2017
+160,East Berkeley,ST,316,2118.0,G,FT,N,,Boston University,2017-2018
+1516,TREMONT APT2,ST,APT 2,2120.0,U,FT,,,Northeastern University,2016-2017
+860,Harrison,AVE,1109,2118,U,PT,,,Urban College of Boston,2019-2020
+185,Walworth,St,,2131,GR,PT,,N,Simmons University,2019-2020
+1925,Commonwealth,AVE,1117,2135.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+132,Hemenway,St.,Apt. 30,2115,U,FULL,,N,New England Conservatory,2018-2019
+1,Nashua,St,913,2114,U,PT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+35,Ballard St.,,#2,2130,G,Full Time,N,,Boston College,2016-2017
+364,Riverway,,2,2115,G,FT,N,,Harvard University,2021-2022
+771,Beacon,"St,",APT B2-803,2215,G,FT,,,Boston University,2022-2023
+180,Brookline,Ave,1046,2215,U,FT,N,,Boston University,2021-2022
+45,Province,St,1604,2108,U,FT,N,,Suffolk University,2020-2021
+186,Manchester,St,Apt 1,2126,U,FT,,N,University of Massachusetts-Boston,2018-2019
+26,Hemenway,St,10,2115,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+190,Kelton,Street,#2,2134,G,FT,,,Boston University,2022-2023
+75,NOTTINGHILL RD APT 1,,,2135,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+1079,commenwealth,ave,240,2115,U,FT,Private,N,Northeastern University,2020-2021
+16,Ashford,St,,2134,U,FT,Y,,Boston University,2020-2021
+1209,Boylston,St,1,221,U,FT,N,,Berklee College of Music,2017-2018
+10,Speare Place #255,,#255,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+11,QUEENSBERRY,STREET,#17,2215.0,U,FT,,,Northeastern University,2017-2018
+10,Roseland,St,,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+99,Kneeland,St,406,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+75,Peterborough,Street,Apt 318,2215,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+101,BEVERLY,ST,7H,2114,G,FT,Not-at-Home,,Tufts University,2023-2024
+75,Old Ironsides,Way,Apt D,2129,U,FT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+137,,St,Apt #2,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+836,Huntington,Ave,,,UG,Full-Time,,No,MCPHS University,2019-2020
+166,Waldemar,Ave,,2128,U,FT,At Home,,University of Massachusetts-Boston,2023-2024
+8,Harvard,TER,3,2134.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+275,Medford,Street,Apt 216,2129.0,G,FT,N,,Simmons College,2017-2018
+1584,Tremont,St,,,GR,Full-Time,,No,MCPHS University,2019-2020
+21 lodgehill rd 0,,,,2136.0,U,HT,N,,MCPHHS University,2017-2018
+20,Pratt,St,,2134,U,FT,N,,Boston University,2020-2021
+1,Nassau,St,1903,2111,G,FT,,N,Tufts University,2019-2020
+1242,Commonwealth,Ave,23,2134,U,FT,N,,Boston University,2021-2022
+33,Hillside,Street,3,2120,U,FT,Private,N,Northeastern University,2021-2022
+1335,Boylston,St,713,2215,G,FT,N,,Harvard University,2021-2022
+345,Harrison,Ave,356,2118,G,FT,N,,Boston University,2021-2022
+46,Lewiston St.,,,2136,U,FT,,,Fisher College,2018-2019
+176,Sydney,St,1,2125,U,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+47,Bay,State,,2215,U,FT,,,Boston University,2022-2023
+9,Gardner,ST,4,2134,U,FT,,N,Boston University,2018-2019
+35,South,Street,,2135,U,Full Time,Not at home,,Boston College,2022-2023
+226,Parker Hill 13th Apartment,Avenue,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+30,Harbor Point,Blvd,Apt 302,2125,U,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+15,Msgr Albert A Jacobbe,Rd,314,2128,U,FT,N,,Suffolk University,2020-2021
+,,,,2118,U,FT,Private,N,Northeastern University,2020-2021
+721,PARKER,ST,APT 5,2120.0,U,FT,,,Northeastern University,2017-2018
+315,Foster,Street,,2135,U,Full Time,Not at home,,Boston College,2022-2023
+1056,Commonwealth,Ave,51,2215,U,FT,N,,Boston University,2020-2021
+39,Maple,St,Unit 404,213.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+32,Worcester,Sq,7,2118,G,FT,,N,Boston University,2019-2020
+580,Washington,Street,,2111,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+93,E Brookline,Street,Apt 3,2118.0,G,FT,N,,Emerson College,2017-2018
+75,Alphonsus 0515,Street,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+,10Alvan Terrace,,Unit 3,2125,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+375,Market,Street,306,2135,G,FN,,,Boston University,2022-2023
+523,Beacon,St,APT 1,2215,G,FT,,N,Massachusetts Institute of Technology,2019-2020
+351,Center Apartment 2,Street,,2130,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+47,East Concord,ST,2,2118,G,FT,N,,Boston University,2016-2017
+50,Charlesgate East,,195,2215,G,FT,N,,Boston University,2021-2022
+1,Franklin,St,1014,2110,U,FT,,N,Boston University,2019-2020
+74,Egmont,ST,1,2215.0,U,FT,N,,Boston University,2017-2018
+1409,Commonwealth,AVE,405,2135.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+660,Washington 23O,St,,2111,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+90,Greenwood,St,1,2121,G,PT,,N,University of Massachusetts Boston,2019-2020
+95,Undine Rd,,,2135,U,FT,N,,Boston College,2020-2021
+82,Worcester,St,Apt 1,2118,G,FT,N,,Massachusetts Institute of Technology,2020-2021
+21,Chester,St,Apt 4,02134-3021,U,FT,N,,Berklee College of Music & Boston Conservatory,2020-2021
+58,Queensberry,St,Unit 2,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+219,Western,Avenue,508,2134,Grad,Full Time,N,,Harvard University_Boston-Based Students,2020-2021
+322,K,ST,,2127,G,FT,N,,Tufts University,2021-2022
+1128,Commonwealth,Ave,6,2134,G,FT,N,,Boston University,2020-2021
+1872,Commonwealth,Avenue,A,2135,U,FT,,N,Emerson College,2018-2019
+54,CALUMET APARTMENT,,1,2122.0,G,FT,,,Northeastern University,2017-2018
+1,Avery Street,,Unit 14B,2111,U,Full Time,N,,Boston College,2016-2017
+466,Commonwealth,AVE,601,2215,U,FT,N,,Boston University,2016-2017
+221,Massachusetts,Ave,1005,2215,U,FT,N,,Boston University,2021-2022
+40,Berkeley,ST,,2116,G,FT,N,,Boston University,2016-2017
+20,Brookway,Ter,Apt 357,2131,U,FT,,N,University of Massachusetts-Boston,2018-2019
+31-2,Lake Shore Court,,,2135,G,Full Time,N,,Boston College,2021-2022
+99,Kneeland,St,1012,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+199,N Harvard,Street,N817,2134.0,G,FT,N,,Harvard University,2017-2018
+11,sunset,st,,2115,G,FT,Private,N,Northeastern University,2021-2022
+885,Harrison,Avenue,Unit 3,2118,G,FT,,,Boston University,2022-2023
+401,Mount Vernon,St,Apt 226,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+300,Amory,Street,,2130.0,G,FT,N,,Emerson College,2017-2018
+64,Fisher,Ave,,2120,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2022-2023
+72,Gardner,ST,,2134,U,FT,N,,Boston University,2016-2017
+1925,Commonwealth,Ave,421,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+50,calumet,St,1,2120,U,FT,Private,N,Northeastern University,2020-2021
+30,Linden,Street,,2134,U,FT,,,Boston University,2022-2023
+56,QUEENSBERRY,,#3,2120.0,G,FT,,,Northeastern University,2017-2018
+10,Oakton,Ave,1,2122,G,PT,Private,N,Northeastern University,2020-2021
+90,Gainsborough,St,Apt 204E,2115,G,FN,,,Boston University,2022-2023
+75,Morton Village,Drive,Apt. 206,2126,U,PT,,N,Urban College of Boston,2022-2023
+425,BOYLSTON,ST,UNIT 702,2116.0,U,FT,,,Northeastern University,2017-2018
+231,Park Drive Apartment No 8,,,2215,Graduate,Full Time,At home,,Northeastern University,2022-2023
+28,Arlington,St,St,2135,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+27,Eutaw,St.,Apt. 1,2128,U,FULL,,N,New England Conservatory,2018-2019
+1334,Commonwealth,Ave,31,2134,U,FT,N,,Boston University,2021-2022
+8,Vinal,ST,14,2135.0,U,FT,N,,Boston University,2017-2018
+1179,Boylston,St,Apt 6,2215,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+180,Hillside,St,3,2120,U,FT,N,,Wentworth Institute of Technology,2020-2021
+60,Woodstock,AVE,,2135.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+8,SHELDON,STREET,,2131.0,G,PT,,,Northeastern University,2016-2017
+245,Kelton,Street,,2134,U,FT,,,Boston University,2022-2023
+594,Centre,Street,Apt. 3,2130,Graduate,PT,At Home,,Boston University,2023-2024
+885,Harrison,AVE,2,2118,G,FT,N,,Boston University,2016-2017
+41,Bay State,Road,#4R,2215,U,FT,,,Massachusetts Institute of Technology,2022-2023
+24,Chiswick,Rd,Apt 2a,02135-7193,U,FT,N,,Berklee College of Music & Boston Conservatory,2020-2021
+4,Farrington,Avenue,#1,2134,Graduate,PT,Not At Home,,Boston University,2023-2024
+1335,Boylston,St,,2215,U,FT,Y,,Boston University,2020-2021
+1079,Commonwealth,AVE,508,2215,U,FT,,N,Boston University,2018-2019
+2043,Columbus,Avenue,Apt 3,0P,G,FT,N,,Simmons College,2016-2017
+120,GLENVILLE,AVENUE,APT 4,2134.0,G,FT,,,Northeastern University,2016-2017
+74,Saint Stephen 4,Street,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+29,Queensberry,ST,,2115.0,U,FT,N,,Boston University,2017-2018
+65,north point,drive,507,2125,G,FT,Home,N,Northeastern University,2020-2021
+,133-2,St,,,UG,FT,,N,MCSPHS University,2018-2019
+33,Oak,St,1,2111,G,FT,,,Tufts University,2018-2019
+24,Chester,ST,2,2134,U,FT,3,,Boston University Updated Report 30Nov2017,2017-2018
+616,COLUMBUS,AVE,APT 6,2118.0,U,FT,,,Northeastern University,2017-2018
+534,Beacon,ST,305,2215.0,G,FT,N,,Boston University,2017-2018
+38,Westland,Ave,4,2115,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+2,HIGH ROCK WAY,,APT 2,2134.0,G,FT,,,Northeastern University,2016-2017
+255,Northampton,St.,602,2118,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+636,Beacon,St,Apt 201,02215,G,FT,Not at Home,,New England College of Optometry,2023-2024
+67,Harvard,Avenue,Apt 3,2134.0,U,FT,N,,Emerson College,2017-2018
+149,Endicott,Street,3,2113,U,FT,At-Home,,Emerson College,2023-2024
+50,Tuttle,Street,,2125,Grad,Full Time,,N,Boston College,2019-2020
+75,Braintree,St,502,2134,G,FT,N,,Boston University,2021-2022
+150,Huntington,Ave,NE10,2115,U,FT,N,,Suffolk University,2020-2021
+15,Shepherd,Ave,Apt 2,2115,G,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2022-2023
+45,East Newton,ST,619,2118,G,FT,N,,Boston University,2016-2017
+43,Westland,Ave,209,211,G,FT,,,Preliminary Tufts University-SMFA,2016-2017
+60,Empire,Street,2,2134,G,FT,,,Harvard University,2019-2020
+1079,Commonwealth,Ave,301,2215,U,FT,,N,Boston University,2019-2020
+32,Howell,St,Fl 2,2125,U,FT,,N,University of Massachusetts-Boston,2018-2019
+1,Auburn,St,,2129,G,PT,N,,Suffolk University,2020-2021
+670,Massachusetts,Ave,3,2118,G,FT,N,,Boston University,2021-2022
+105,Peterborough,St,26,02215-4217,U,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+6,Blackwood,Street,Apt 232,2115,G,FT,,N,New England College of Optometry,2019-2020
+2012,Commonwealth Avenue,,3D,2135,U,FT,Not-at-Home,,Boston College,2023-2024
+330,Market,St,,2135,Grad,Full Time,,N,Boston College,2019-2020
+50,Chester,Street,1,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+25,Saint Stephen,Street,6,2115,G,FT,Private,N,Northeastern University,2021-2022
+135,Glenville,AVE,,2134.0,U,FT,4,,Boston University Updated Report 30Nov2017,2017-2018
+49,Worthington,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+555,SHAWMUT,AVENUE,,2118.0,G,FT,,,Northeastern University,2017-2018
+1175 MORTON ST 0,,,,2126.0,U,FT,N,,MCPHHS University,2017-2018
+55,PARK APARTMENT,DR,19,2215.0,G,FT,,,Northeastern University,2017-2018
+1148,Commonweath,Ave,26,213,U,FT,N,,Berklee College of Music,2016-2017
+11,Scottfield,Rd.,Apt. 12,2134,G,FULL,N,,New England Conservatory,2016-2017
+1175,Boylston,St,41,221,U,FT,N,,Berklee College of Music,2016-2017
+775,Parker,Street,2,2120,U,FT,Private,N,Northeastern University,2021-2022
+42,Brookley,Road,Unit 2,2130,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+199,N Harvard,St,N607,2134,G,FT,Not-at-Home,,Harvard University,2023-2024
+19,Chester,St,Apartment #7,2134,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+37,HILLSIDE,ST,,2120.0,G,FT,,,Northeastern University,2016-2017
+84,Gardner,St,27,2134,U,FT,N,,Boston University,2021-2022
+255,Massachusetts,Ave,1102,2115,U,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+146,Edgemere,Rd,1,2132,G,FT,,N,Tufts University,2019-2020
+199,N Harvard,St,N905,2134,G,FT,Not-at-Home,,Harvard University,2023-2024
+11,Royce,RD,,2134.0,G,FT,N,,Boston University,2017-2018
+464,Commonwealth,AVE,37,2215,U,FT,N,,Boston University,2016-2017
+20,Charlesgate West,,APT 322,02215,G,FT,Not at home,,New England College of Optometry,2022-2023
+497,Commonwealth,Ave.,,2215,U,FT,,,Boston University,2022-2023
+64,Newburg,St,,2131,U,FT,,N,University of Massachusetts-Boston,2018-2019
+100,W Squantum,St,Apt 517,217,U,FT,N,,University of Massachusetts-Boston,2016-2017
+,,,,2108,U,FT,Home,N,Northeastern University,2021-2022
+3,SYMPHONY,RD,UNIT #1,2115.0,U,FT,,,Northeastern University,2017-2018
+879,Beacon,ST,33,2215.0,U,FT,N,,Boston University,2017-2018
+762,Tremont,St,Apt 5,2118,U,PT,N,,University of Massachusetts-Boston,2021-2022
+51,Allston,ST,,2134,U,PT,1,,Boston University Updated Report 30Nov2017,2017-2018
+88,LINDEN,ST,,2134.0,G,FT,,,Northeastern University,2017-2018
+100,Ocean,Dr,610,2125,U,FT,,N,University of Massachusetts-Boston,2018-2019
+1,Saint James,Place,,2119,G,FT,Private,N,Northeastern University,2020-2021
+1334,Commonwealth,AVE,16,2134.0,U,FT,1,,Boston University Updated Report 30Nov2017,2017-2018
+25,Jan Karski Way APT D557,,,2125,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+40,Island View,Pl,Apt 120,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+45,Stuart,St,1813,2116,G,FT,,N,Tufts University,2019-2020
+90,W Cedar,St,Apt 3F,2114,G,FT,Not-at-Hhome,,Suffolk University,2022-2023
+208A,Commonwealth,Ave,,02116,G,FT,Not at home,,New England College of Optometry,2022-2023
+141,Hillside 1,Street,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+,,,,2115,U,FT,Private,N,Northeastern University,2021-2022
+5,Barrows,Street,Allston,2134,G,FT,Private,N,Northeastern University,2020-2021
+95,Saint Alphonsus,Street,,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+3,Quincy,Ct,,2113.0,U,FT,N,,Suffolk University,2017-2018
+16,Lawn,Street,A,2120,U,FT,Private,N,Northeastern University,2021-2022
+242,Hyde Park,Avenue,Apt 2,2130,Graduate,Full Time,At home,,Northeastern University,2023-2024
+16,Jacqueline,Rd,,2132,G,PT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+1868,Commonwealth Ave,,5,2135,U,Full Time,N,,Boston College,2017-2018
+520,Beacon,St,,2215,G,FT,,N,Massachusetts Institute of Technology,2019-2020
+148,Bernard,ST,3,02124-2936,U,FT,At-Home,,Emmanuel College,2023-2024
+206,Beacon,St,3,2116,G,PT,N,,Harvard University,2021-2022
+30,Glenville,AVE,,2134,U,FT,,N,Boston University,2018-2019
+30,Saint Alphonsus,St,,212,U,FT,N,,University of Massachusetts-Boston,2016-2017
+75,Braintree,St,410,2134,U,FT,,N,Boston University,2019-2020
+650,Columbus,Avenue,232,2118,G,FT,Home,N,Northeastern University,2021-2022
+217,ALBANY,ST,901,2118,G,FT,Not-at-Home,,Tufts University,2023-2024
+56,FARQUHAR,STREET,,2120.0,G,FT,,,Northeastern University,2017-2018
+80,Fenway 54,,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+51,S Huntington,Ave,Apt 301,2130,G,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2022-2023
+612,Columbus,Ave,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+43,South St,,3,2135,U,FT,N,,Boston College,2020-2021
+64,Charlesgate East #58,,,2215,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+197,Calumet,ST,,2120,U,FT,,,Emmanuel College,2018-2019
+1,Devonshire,Pl,# 3610,02109,G,FT,not-at-home,,Massachusetts Institute of Technology,2023-2024
+180 St Alphonsus St Apt 1,,,,2120,G,FT,,,Massachusetts College of Pharmacy and Health Sciences,2016-2017
+69,Nelson,St,,2124,U,FT,At-home,,University of Massachusetts-Boston,2022-2023
+194,Hillside,St,# 2,2120,G,FT,N,,Massachusetts Institute of Technology,2020-2021
+66,Beach Point,Pl,Apt 210,2125,U,FT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+15,S Point,Dr,Apt 504,212.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+22,DELLE,AVE,,2120.0,U,FT,,,Northeastern University,2016-2017
+1191,Boylston,St,32,02215-3560,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+30,Ashfield,St,2,2131,G,PT,,N,University of Massachusetts Boston,2019-2020
+6,Ashford,Court,,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+38,cherokee 1,,,,UG,Full-Time,,No,MCPHS University,2019-2020
+97,Chester,ST,A3,2134,G,FT,,N,Boston University,2018-2019
+1126,Commonwealth,AVE,5,2134.0,U,FT,2,,Boston University Updated Report 30Nov2017,2017-2018
+48,Brighton,AVE,1,2134.0,U,FT,N,,Boston University,2017-2018
+150,Huntington,Ave,Sa6,02115-4808,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+32,Long,AVE,,2134.0,U,FT,5,,Boston University Updated Report 30Nov2017,2017-2018
+13,CONCORD SQUARE,,#3,2215.0,G,FT,,,Northeastern University,2017-2018
+19,Perrin 19#4,Street,,2119,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+137,Park,DR,Apt 42,2215,Graduate,FT,Not At Home,,Boston University,2023-2024
+51,Fulton,St,Apt 2,2109,U,FT,Not-at-Home,,Suffolk University,2023-2024
+137,Peterborough,Street,Apt 7,2215.0,U,PT,N,,Simmons College,2017-2018
+54,Calumet,St,2,2120,U,FT,Home,N,Northeastern University,2021-2022
+150,Huntington,Avenue,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+3611,Washington,St,B511,2130,G,FT,,,Tufts University,2018-2019
+59,Endicott,St,,2113,G,FT,N,,Suffolk University,2016-2017
+1263,Commonwealth,Ave,,2134,G,FT,N,,New England College of Optometry,2021-2022
+1203,Boylston,Street,,2215,G,FT,,N,Boston Architectural College,2019-2020
+447,Park,Dr,G1,02215-3850,U,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+52,The Fenway,,,221,U,FT,N,,Berklee College of Music,2016-2017
+55,Dudley,Street,1,2119,G,FT,Private,N,Northeastern University,2020-2021
+90,W. Springfield,Street,,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+25,Leedsville,St,1,2122,U,FT,,N,University of Massachusetts Boston,2019-2020
+79,Gainsborough,St,,2115,U,FT,Private,N,Northeastern University,2021-2022
+8,Sewall,Street,,2120,Undergraduate,Full Time,At home,,Northeastern University,2023-2024
+249,Cambridge,ST,3,2134,U,FT,,N,Boston University,2018-2019
+141,Sutherland,Rd,Apt 1A,2135,G,FN,,,Boston University,2022-2023
+86,Undine Road,,,2135,U,FT,Not-at-Home,,Boston College,2023-2024
+50,Malden,ST,219,2118.0,G,FT,N,,Boston University,2017-2018
+84,Pine,Street,,2134,U,FT,No,,Massachusetts College of Art and Design,2020-2021
+91,Westland,Ave,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+40,Boylston,Street,,2116,U,FT,N,,Emerson College,2016-2017
+50,Harbor Point,Blvd,Apt 301,212.0,G,FT,N,,University of Massachusetts-Boston,2017-2018
+221,Massachusetts,Ave,710,02115-3504,U,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+66,Beach Point,Pl,Apt 309,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+55,Lewis,St,Apt 206,2128,G,FT,Not-at-Hhome,,Suffolk University,2022-2023
+91,Lenox,St,Apt 1,211.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+50,Evergreen,Street,Apt 14,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+478,Beacon,St,,2115,G,FT,At-Home,,Suffolk University,2023-2024
+1665,Commonwealth Ave,,#6,2135,G,Full Time,N,,Boston College,2021-2022
+871,Harrison,Ave,2,2118,G,FT,,N,Boston University,2019-2020
+9,Alvan,ter,,2125,U,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+6,Mead,Street,3,2134.0,G,FT,N,,Harvard University,2017-2018
+50,Malden,St,318,2118,U,FT,N,,Boston University,2021-2022
+15,Langley,RD,2,2135.0,G,FT,N,,Boston University,2017-2018
+35,Orkney 12A,Road,,2135,Graduate,Full Time,At home,,Northeastern University,2023-2024
+108,Gainsborough,St,205,02115-4260,U,FT,N,,Berklee College of Music-Boston Conservatory,2021-2022
+49,Van Brunt,Street,,2115,U,PT,N,,MGH Institute of Health Professions,2016-2017
+12,Bay State,Road,3F,02215,G,FT,,N,New England College of Optometry,2018-2019
+22,Mansfield,Street,,2134,U,FT,,,Boston University,2022-2023
+2,Eugene Circle,,,,GR,FT,,N,MCSPHS University,2018-2019
+125,London,Street,2,2128,Grad,Full Time,,N,Boston College,2019-2020
+50,Symmes,St,,2131,G,FT,,,Boston University,2022-2023
+491,E. 3rd,St,,2127,Graduate,PT,At Home,,Boston University,2023-2024
+116,Washington,St,56,2135,G,FT,,N,Boston University,2019-2020
+23,Aspinwall,Ave,1,2446,UG,PT,,N,Simmons University,2019-2020
+22,Ashford,St,,2134,U,FT,Y,,Boston University,2021-2022
+41,Allston,ST,,2134,G,FT,N,,Boston University,2016-2017
+60,Rockwood,Street,,2130,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+847,Canterbury,St,,2131,G,PT,,N,University of Massachusetts-Boston,2018-2019
+785,E 4th,St,,2127,G,FT,At-Home,,Suffolk University,2023-2024
+829,Beacon,Street,,2115,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+11,Belmore,Ter,2,2130,G,FT,,N,University of Massachusetts Boston,2019-2020
+21,Highland Park,Ave,Unit 1,2119,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+223,Harvard,AVE,5,2134.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+384,Commonwealth,Ave,Apt 3,02215-2831,U,PT,N,,Berklee College of Music & Boston Conservatory,2020-2021
+1258,Commonwealth,Avenue,,2134,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+2003,Commonwealth Ave.,,apt 33,2135,G,Full Time,N,,Boston College,2016-2017
+63,Burbank,St,,02115-3627,G,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+150,Hungtington,ave,NN4,2115,U,FT,Private,N,Northeastern University,2021-2022
+75,St.Alphonsus st Apt 1807,,Apt 1807,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+14,Chiswick Rd.,,#4,2135,G,Full Time,N,,Boston College,2016-2017
+175,Garfield,Ave,,213.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+50,Ashford,ST,,2134,U,FT,,Y,Boston University,2018-2019
+906,E 2nd,St,210,2127,G,FT,,N,Tufts University,2019-2020
+103,Hemenway,Street,4,2115,U,FT,Private,N,Northeastern University,2020-2021
+1109,Boylston,St,17,2215,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+322,West Squantum,Street,,2171,GR,FT,Not-at-Home,,MGH Institute of Health Professions,2023-2024
+,,,,2124,U,FT,N,,University of Massachusetts Boston,2020-2021
+91,Westland,Ave,526,211,U,FT,N,,Berklee College of Music,2016-2017
+107,Gordon,ST,16,2135.0,G,FT,N,,Boston University,2017-2018
+3,sachem,street,3,2120,U,FT,Home,N,Northeastern University,2020-2021
+464,Commonwealth,Ave,72,02215-2701,U,FT,At Home,,Berklee College of Music-Boston Conservatory,2022-2023
+3,Phillips,"St.,",Apt. 7,2114,G,FT,N,,Suffolk University,2016-2017
+72,Gardner,St,,2134,U,FT,,Y,Boston University,2019-2020
+194,Foster Street,,,2135,G,Full Time,N,,Boston College,2020-2021
+10,Camelot,CT,,2135,Graduate,FT,Not At Home,,Boston University,2023-2024
+45,Province,St,2302,2108,U,PT,N,,Suffolk University,2020-2021
+2,Hancock,St,Apt 918,217,U,PT,N,,University of Massachusetts-Boston,2016-2017
+154,W 2nd,St,Unit 319,2127,G,PT,N,,Suffolk University,2016-2017
+1505,CITYVIEW AT LONGWOOD 75 SAINT ALPHONSUS,STREET,,2120.0,G,FT,,,Northeastern University,2016-2017
+162,Allston,St,2,2134,G,FT,,N,Boston University,2019-2020
+76,Quint,AVE,5,2134,G,FT,N,,Boston University,2016-2017
+409,Marlborough,St,24,02115,U,FT,,,Berkeley and Boston Conservatory,2018-2019
+394,Riverway,,14,2115,Grad,Full Time,N,,Harvard University_Boston-Based Students,2020-2021
+375,Mount Vernon,St,Apt 416,2125,U,FT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+1203,Bolyston,Street,Unit 54,2129,Graduate,FT,not-at-home,,New England Conservatory of Music,2023-2024
+231,Park,Dr,Unit 41,,UG,Full-Time,,No,MCPHS University,2019-2020
+429,Adams,St,# F2,2122.0,G,FT,N,,Suffolk University,2017-2018
+111,Norway,St,apt,2115,G,FT,Private,N,Northeastern University,2021-2022
+1653,Commonwealth Ave,,Unit B,2135,U,FT,N,,Boston College,2021-2022
+100,Sudbury,St,2704,2114,U,FT,N,,Suffolk University,2021-2022
+771,beacon,St,,2215,G,FT,Y,,Boston University,2021-2022
+1367,Commonwealth,AVE,5,2134.0,U,FT,1,,Boston University Updated Report 30Nov2017,2017-2018
+14,,Lake Shore Ct,,2135,G,Full Time,Not-at-Home,,Boston College,2023-2024
+124,Needham,Rd,2,2136,U,FT,,N,University of Massachusetts Boston,2019-2020
+118,Hemenway APT 4,Street,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+40,Ridgemont,Street,,2134,Graduate,FT,Not At Home,,Boston University,2023-2024
+56,Hobson St.,,Apt. #2,2135,Grad,Full Time,,N,Boston College,2019-2020
+5,SYMPHONY,ROAD,,2115.0,U,FT,,,Northeastern University,2016-2017
+91,Westland,Ave,APT,2115,G,FT,Home,N,Northeastern University,2021-2022
+1,Franklin,ST,1705,2110,G,FT,,N,Boston University,2018-2019
+210,Lake Shore Rd,,,2135,G,Full Time,N,,Boston College,2020-2021
+630,centre,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+1140,Commonwealth,Ave,20,2134,G,FT,N,,Boston University,2020-2021
+180,Telford St. #309,,#309,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+23,Evergreen,Street,,2130,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+10,Harbor Point,,Apt 207,212,G,FT,N,,University of Massachusetts-Boston,2016-2017
+1197,Boylston,St,Apt 35,2215,G,FT,,,Massachusetts Institute of Technology,2022-2023
+466,Commonwealth,Avenue,Apt. 605,2215,G,FP,,,Boston University,2022-2023
+352,Riverway 15,,,2115,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+14,WADSWORTH ALLSTON,STREET,2134,2134.0,G,FT,,,Northeastern University,2017-2018
+7,Linden,St,Apt.2,2134,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+59,Burbank,St,1,2115,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+69,Ashford,ST,,2134.0,U,FT,N,,Boston University,2017-2018
+72,Waumbeck  #,Street,74,2121,G,Part Time,Not at home,,Boston College,2022-2023
+11,Wyman,St,,2130,G,FT,Private,N,Northeastern University,2021-2022
+52,Irving,St.,1,2114,G,FT,,,New England Law,2022-2023
+453,Washington,St,9D,2111.0,G,FT,,,Tufts University-SMFA,2017-2018
+25,Whittier,St,Apt 21,212.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+109,Pleasant,ST,3,2125,G,FT,,N,Boston University,2018-2019
+85,Monument,ST,244,2129,U,PT,,,Urban College of Boston,2019-2020
+178,Brighton,Ave,Apt 1,213.0,U,FT,N,,University of Massachusetts-Boston,2017-2018
+50,Harbor Point,Blvd,Apt 304,2125,U,PT,,N,University of Massachusetts-Boston,2018-2019
+1505,Commonwealth,Ave,508,2135,G,FT,,N,Boston University,2019-2020
+2,Hancock,St,Apt 605,217,U,FT,N,,University of Massachusetts-Boston,2016-2017
+56,Charlesgate,E,139,2215,U,FT,Not-at-Home,,Berklee College of Music-Boston Conservatory,2023-2024
+10,Westland 2,Avenue,,2115,Graduate,Full Time,Not at At home,,Northeastern University,2023-2024
+26,Hichborn,St,17,2135,G,FT,N,,Boston University,2020-2021
+79,Gainsborough,Street,,2115,U,FT,Private,N,Northeastern University,2020-2021
+2,High Rock,Way,1,2134,U,FT,,,Berklee College of Music and Boston Conservatory,2019-2020
+10,Sachem,St,,,UG,FT,,N,MCSPHS University,2018-2019
+5,Ashmont,St,,2122.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+34,Brainerd,Rd,3,02134,U,PT,,,Berkeley and Boston Conservatory,2018-2019
+50,Symphony RD 204,,,2115,Undergraduate,Full Time,Not at At home,,Northeastern University,2022-2023
+1988,Commonwealth Ave.,,Apt.2,2135,U,Full Time,N,,Boston College,2016-2017
+2,Ashford,CT,3,2134,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+75,Saint Alphonsus 218,Street,,2120,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+26,Hemenway 15,Street,,2115,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+24,Lawn,St,,,UG,Full-Time,,No,MCPHS University,2019-2020
+35,Chester,ST,2,2134.0,G,FT,N,,Boston University,2017-2018
+2,Hancock,St,Apt 901,217.0,U,PT,N,,University of Massachusetts-Boston,2017-2018
+87,Walworth,St,,2131,U,FT,N,,University of Massachusetts-Boston,2021-2022
+108,Hemenway,Street,Apt. 15,2115,U,FT,N,,Boston Conservatory at Berklee,2017-2018
+75,Braintree,ST,304,2134.0,G,FT,N,,Boston University,2017-2018
+21,Pratt,Street,,2134,Undergraduate,FT,Not At Home,,Boston University,2023-2024
+73,Heath,St,#1,2130,GR,FT,Not-at-Home,,Massachusetts College of Art and Design,2022-2023
+112,White,St,,2128,U,FT,N,,Suffolk University,2016-2017
+235,Chestnut Hill Ave,,1,2135,U,FT,N,,Boston College,2020-2021
+447,Park Dr,,Apt G2,02215-3841,Undergraduate,Full Time,,N,Wentworth Institute of Technology,2019-2020
+16,Pratt,St,,2134,U,FT,N,,Suffolk University,2021-2022
+34,Sagamore,St,Unit 2,2125.0,G,FT,N,,Massachusetts Institute of Technology,2017-2018
+5,Ashford,CT,4,2134,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+71,Symphony,Road,202,2115,U,FT,Private,N,Northeastern University,2021-2022
+40,Anderson,St,17,2114,U,FT,,N,Suffolk University,2018-2019
+57,Sudan,St,Apt 2,2125,U,FT,,N,University of Massachusetts-Boston,2018-2019
+31,Lambert,St,#7,2119,U,PT,No,,Massachusetts College of Art and Design,2020-2021
+898,Huntington,Ave,,2115,U,FT,,N,Suffolk University,2019-2020
+54,N Point,Dr,,2125,U,FT,Not-at-home,,University of Massachusetts-Boston,2022-2023
+1079,Commonwealth,Ave,335,2215,U,FT,N,,Boston University,2021-2022
+50,Tremont,ST,1,2135,G,FT,N,,Boston University,2016-2017
+30,Rutland,ST,6,2118.0,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+60,Fenway,,12,02115-3757,U,FT,,,Berklee College of Music-Boston Conservatory,2022-2023
+15,Carol,AVE,11,2135,G,FT,,N,Boston University,2018-2019
+1193,Commonwealth,Ave.,Apt. 11,2134,G,FULL,,N,New England Conservatory,2018-2019
+70,Hillside,Street,2,2120,U,FT,Private,N,Northeastern University,2020-2021
+59,Hillside,Street,Unit #2,2120,Undergraduate,Full Time,Not at At home,,Northeastern University,2023-2024
+518,Cambridge,"St.,",,2134,G,FT,,,Boston University,2022-2023
+331,HUNTINGTON,AVE,13,2115.0,G,FT,,,Northeastern University,2016-2017
+69,Park,Drive,21,2215.0,G,FT,N,,Harvard University,2017-2018
+1160,Commonwealth,AVE,42,2134,G,FT,N,,Boston University,2016-2017
+32,Symphony,Rd,1,2115,U,FT,N,,Boston University,2020-2021
+20,HANOVER,AVENUE,APT 1A,2109.0,G,FT,,,Northeastern University,2016-2017
+20,Darling,Street,,2120,U,FT,Private,N,Northeastern University,2021-2022
+40,Malvern,St,202,2134,G,FT,,N,Boston University,2019-2020
+285,Columbus,Ave,,211,U,FT,N,,Berklee College of Music,2017-2018
+19,Rockview,ST,1L,2130.0,G,FT,N,,Boston University,2017-2018
+370,Chestnut Hill,Ave,,2135,U,FT,N,,Boston University,2021-2022
+45,Stuart,St,2210,2116,G,FT,,,Tufts University,2018-2019
+21,Pratt,St,2,2134,U,FT,N,,Boston University,2021-2022
+486,Massachusetts,Ave,Apt 1,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+30,Dalton 2109,Street,,2115,Undergraduate,Full Time,At home,,Northeastern University,2022-2023
+75,St. Alphonsus,Street,Apt.,2108,Graduate,Full Time,Not at At home,,Northeastern University,2022-2023
+50,malden,st,106,2118,G,FT,Private,N,Northeastern University,2021-2022
+65,Ashford,St,1,2134,U,FT,,N,Boston University,2019-2020
+64,Kirkwood,Rd,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+,"11 Tetlow Street, #32",,,2115.0,U,FT,,,Massachusettes College of Art and Design,2017-2018
+321,summit,ave,,2135,U,FT,,,Boston University,2022-2023
+50,Kirkwood,Road,,2135,U,Full Time,Not at home,,Boston College,2022-2023
+922,Beacon,St,Apt 43,2215,G,FT,,,Boston University,2022-2023
+1079,Commonwealth,AVE,331,2215,U,FT,N,,Boston University,2016-2017
+220,Beacon,ST,601,2116,G,FT,,N,Boston University,2018-2019
+39,Bay State,RD,2F,2215,G,FT,0,,Boston University Updated Report 30Nov2017,2017-2018
+28,Fisher,Ave,#3,,Undergraduate,Full Time,,NO,Northeastern University,2019-2020
+66,Sunnyside,Street,,2136,UG,PT,At Home,,Simmons University,2023-2024
+4,Brinton,Street,B,2119,U,FT,Private,N,Northeastern University,2020-2021
+,85 Everett st.,,,2128,G,FT,,,MA College of Art and Design,2016-2017
+1,Longfellow,Pl,1714,2114,U,PT,N,,University of Massachusetts Boston,2020-2021
+25,Evergreen,St,1,2130,G,FT,Private,N,Northeastern University,2021-2022
+81,Strathmore,Road,Apt 24,2135,Graduate,PT,At Home,,Boston University,2023-2024
+38,Kirkwood,,,2135,Undergrad,Full Time,,N,Boston College,2018-2019
+35,Myrtle,Street,3,2114,G,FT,,N,New England College of Optometry,2019-2020
+44,Crescent,Ave,Apt 2,2125,U,FT,Not at home,,University of Massachusetts-Boston,2023-2024
+15,SEWALL APARTMENT,STREET,2,2120.0,U,FT,,,Northeastern University,2017-2018
+44,Quint,Ave,5,2134,G,FT,,N,Tufts University,2019-2020
+56,Clearway,St,5,211,U,FT,N,,Berklee College of Music,2016-2017
+72,Gardner,ST,,2134.0,U,FT,Y,,Boston University,2017-2018
+1868,Commonwealth Ave,,5,2135,U,Full Time,N,,Boston College,2017-2018
+1160,Commonwealth,Ave.,,2134,G,FT,,,Boston University,2022-2023
+56,Torrey,St,2,212,U,FT,N,,Berklee College of Music,2016-2017
+154,Newbury,St,Apt. 1,2116,U,FT,No,,Massachusetts College of Art and Design,2020-2021
+5,Euston,ST,5,2215.0,U,FT,N,,Boston University,2017-2018
+10,Upton,Street,Apt. 1,2118,G,FT,N,,Boston Conservatory at Berklee,2016-2017
+134,Englewood,Ave,6,2135,G,FT,N,,University of Massachusetts Boston,2020-2021
+35,South,St,,2135,Grad,Full Time,,N,Boston College,2018-2019
+108,HEMMENWAY,STREET,APT 6,2115.0,U,FT,,,Northeastern University,2016-2017
+409,Marlborough,St,,211,U,FT,N,,Berklee College of Music,2017-2018
+47,Iroquois Stree,,,,Graduate,Full Time,,NO,Northeastern University,2019-2020
+25,Clark,St.,Apt. # 10,2109.0,G,FT,N,,Suffolk University,2017-2018
+158,F,St,Unit 3,2127,Graduate,FT,At Home,,Boston University,2023-2024
+176,longwood,ave,ave,2115,U,FT,Not-at-home,,MA College of Pharmacy and Health Sciences,2023-2024
+658,Massachusetts,Avenue,4,2118,G,FT,Private,N,Northeastern University,2021-2022
+303,Foster,Street,,2135,Undergrad,Full Time,,N,Boston College,2019-2020
+38,Westland,Ave,38,211,U,PT,N,,Berklee College of Music,2017-2018
+446,Cambridge,St,305,2134,G,PT,,N,Boston University,2019-2020
+1082,Commonwealth,Ave,Unit 102,2215,U,FT,,,Boston University,2022-2023
