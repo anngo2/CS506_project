@@ -19,4 +19,5 @@ clean:
 
 # Install dependencies (optional)
 install_deps:
-	pip install pandas matplotlib seaborn scikit-learn joblib jupyter
+	pip install pandas matplotlib seaborn scikit-learn joblib jupyter numpy contextily
+	
