@@ -83,7 +83,8 @@ a. Cleaning and integration: Student Housing Survey and Building Violation Data
   
   1. Clustering: K-Means algorithm was applied with k = 5 (5 clusters), Features used: latitude, longitude, and ZIP code (normalized). The resulting clusters were plotted using a scatter plot of longitude vs latitude, color-coded by cluster. The results of the clustering can be seen below.
   
-  <img width="765" alt="Screenshot 2025-03-30 at 5 08 15 PM" src="https://github.com/user-attachments/assets/01a49b6f-f033-4f0e-a396-14fcffb3afd4" />
+ 
+<img width="642" alt="Screenshot 2025-05-01 at 1 20 47 PM" src="https://github.com/user-attachments/assets/98b5c398-3bd6-4454-919b-38221eb6cb7c" />
 
   2. Result and Interpretation:
      The clustering output revealed five distinct geographic regions where matched student and violation addresses are concentrated. Each color in the scatter plot represents a different cluster:
@@ -473,6 +474,12 @@ Given figure 1:
 
 
 # NEXT STEPS
+
+1. Continuation of Question 7
+    - One of the next steps that we have it to continue analyzing landlords that are non-compliant. One of the next things we can do is to look more into zipcodes of each area and look at which zip codes have the most non-compliant landlords. We think that this would be very useful information to research and look at trends of issues that are happening around that area.
+
+2. Question 1 additional features
+    - One of the things we could do for the second question is to incorporate more features like: number of violations per property, number of students per property, property age (from assessor data). We believe that this will help distinguish between high violation student housing and general rental properties.
 
 
 
