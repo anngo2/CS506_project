@@ -1,6 +1,6 @@
 # CS506_project (https://www.youtube.com/watch?v=QPIXDBgT4HM)
 
-> **Structure of this report:** We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
+> **!!!Structure of this report:!!!** We are going to split this report by questions we have answered. With each section, we will talk about the data processing/cleaning, models used, analysis, and preliminary results for each question we have solved. This is primarily to make the report more easy to follow.
 
 ### Description of Project ###
 
@@ -180,7 +180,7 @@ b. Analysis for trends regarding student housing across the city, by district
 <img width="853" alt="Screenshot 2025-04-29 at 3 36 30 PM" src="https://github.com/user-attachments/assets/9506737d-0e0f-4c9d-9984-e2380aa9bf42" />
 The picture above shows the correlation between ward number and area in Boston
 
-## Preliminary Results
+## Preliminary Results (Q3)
 
   1. `Permit Issues dominate citywide:` Across basically all wards, the majority of violations were related to permit compliance, either due to failure to obtain proper permits for construction or not adhering to permit regulations. Given this trend, a solution we believe could be effective is to have more programs that educate people about permits and laws that are needed. This could be set up by the government or something. We believe that this permit issues is a systemic issues given that all wards have very high levels of permit violations.
 
@@ -212,7 +212,7 @@ From the SAM dataset, we selected:
    - Each violation description was normalized (uppercased) and classified into a specific category via a function _**categorize_violation(desc)**_. The categories are the same as the ones listed in Question 3.
    - `merging datasets:` The two datasets were merged using a left join on sam_id = SAM_ADDRESS_ID. This allowed violations to be tied back to their full addresses and address creation dates for better context.
 
-## Data Analysis (Q3)
+## Data Analysis (Q4)
 
 1. Feature Engineering - Given the dataset, we manually engineering multiple features per sam_id (property).
    - `total_violations:` Total number of recorded violations.
@@ -350,15 +350,74 @@ Given the results from the visualization, we did a bit more research into the sp
 
 # Question 6: What is the spectrum of violations and severity in regards to worst landlords classifications?
 
-# Data Processing (Q6)
+## Data Processing (Q6)
 
   1. `Cleaning:`
 
      - Normalization functions `clean_violation_city()` maps spellings or mentions of Boston neighborhoods (e.g., "east boston/brighton", "northend") to consistent city names. At the same time, `clean_demographics_name()` does it for the demographic dataset
      - Joining: The cleaned fields cleaned_city and cleaned_name were used to merge violations with their respective neighborhood demographic information.
  
-  2. `Processing:` matching violation records to their landlords using a composite address string.
+  2. `Processing:` matching violation records to their landlords.
 
-     - 
+     - Landlord matching to violation: 
+     - `compare_address:` constructed in both `violations_df` and `landlord_df` using: ST_NUM, ST_NAME, ZIPCODE, violation_stno, violation_street, violation_suffix, violation_zip for violations
+         - The datasets were merged using compare_address as the key, giving each violation record an associated owner if possible.
+## Data Analysis (Q6)
+
+```
+groupby(['OWNER', 'description'])
+```
+  1. Aggregation: we used the code above to count the number of violations per landlord per violation type.
+
+```
+df.groupby('OWNER').agg({
+    'case_no': 'count',
+    'code': ['nunique', 'min', 'max']
+})
+```
+  2. The second aggregation method we used provided:
+
+      -`total_violations:` total number of cases per landlord
+     
+      - `unique_violation_types:` variety of violations issued
+      - `min/max:`  severity range based on violation codes (higher code = more severe issue)
+    
+  3. Merge for complete view:
+
+     - Combines both the volume/severity statistics and the type-specific counts into one file.
+     - We used the code below to sort the landlords by total number of recorded violations. This reveals the most problematic property owners
+    
+     ```
+     worst_landlords = landlord_summary.sort_values(by='total_violations', ascending=False)
+      ```
+  4. Visualization
+     - The code below plots the shows how many violations each of the top 5 landlords received, broken down by violation type
+
+```
+sns.barplot(data=top_summary, x="OWNER", y="count", hue="description")
+```
+<img width="680" alt="Screenshot 2025-04-30 at 8 20 13 PM" src="https://github.com/user-attachments/assets/d49bfcec-e66f-4f2b-8ba9-37081321b0bf" />
+ 
+
+
+## Preliminary Results (Q6)
+
+  Given the results from the visulization above, we have some insights given the visualization below:
+
+  - **Historic Rivieria LLC** (highest number of violations)
+     - This landlord had the most violations in two categories: certificate of inspection and unsafe and dangerous conditions (around 70 violations each).
+     - It's very likely that given this visualization, the landlord  operates older properties with many unrenewed inspection certifications.
+     - However, if a student were to look for housing, the high number of "unsafe and dangerous" violations suggests serious issues related to the living environment / structure of the building (e.g., failing structures, hazards that are not covered for safety, etc.).
+     - Another important thing to note is the lack of variation suggesting repeat offenses in a specific area. This could mean a systemic failure to address inspection deadlines or correct structural deficiencies. Researchers can look into this to figure out why only two offenses are common for this company or potentially the area that they operate.
+   
+  - **Mother Brook LLC MASS LLC**
+    - Main violations: failure to obtain permit, maintenance and modification of fire protection systems.
+    - Given the violations, it's likely that the high number of permit violations is because they are involved in a lot of renovation and altercations without required permits. In a perviously answered quetsion above (Q3), we saw that permit violations are the most common. We believe it could be a government issues not that of the landlord but this needs futher research to prove.
+    - The presence of fire violations as well could mean they have unfit safety issues. If this pattern persists, it could mean that the landlord has a trend of cutting costs or worse, neglecting formal compliance procedures.
+
+  - **Walando Homes Limited Partnership** (many different types of violations)
+     - Main violations: failure to obtain permit, emergency escape & rescue, guarding of live parts, spaces about electrical equipment, unlawful acts/Continuance.
+     - The amount of different types of violations reveals that this landlord likely has a lot of multifamily areas or mix use buildilngs (for ex. many types of store in building)
+     - One thing that is clear is that the amount of violations suggests that the management has very _bad_ property management system or law of staff/ oversight. If a person were to look into managements to investigate this place would be the best to look into given the amount of violations that they have. Students that are looking into good landlords, should NOT rent with this landlord given their track record.
 
 
