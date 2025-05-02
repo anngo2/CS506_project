@@ -464,6 +464,8 @@ Given figure 1:
     - The repeated appearance of LLCs suggests that corporate ownership may be a contributing factor in non-compliance, possibly due to lack of local management or investment-focused ownership models.
 - The analysis of this is yet to be finished before the end of the semester. if given more time, we could definitely spend the majority of time on this question as a next step.
 
+- Due to the limited of data for the new graph the data isnt sufficent enough to make a analysis since it'll be a big file and in the current file is just a small sample of the larger one
+
 ## Preliminary results (Q7)
 
 1. Landlord responsibility:
